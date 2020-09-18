@@ -1,23 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="" />
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 10.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 11.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 12.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 13.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 14.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 4.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 5.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 6.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 7.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 8.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 9.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/dashb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/dashb2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo/slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1heRumAXo6rHbl5xS01abfrIdZS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HACKATHON" />
+    <property name="last_opened_file_path" value="$USER_HOME$/HACKATHON" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,32 +118,56 @@
       <option name="presentableId" value="Default" />
       <updated>1600369795243</updated>
       <workItem from="1600369796394" duration="1212000" />
+      <workItem from="1600415455635" duration="4565000" />
+      <workItem from="1600434065954" duration="1213000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370674565">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600433967735">
+      <screen x="-580" y="-1057" width="2560" height="968" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600370674565" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1600370519009">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600433967735" />
+    <state x="518" y="248" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-580.-1057.2560.968@0.23.1440.877" timestamp="1600419774240" />
+    <state x="435" y="-749" key="EditFileWatcherDialog" timestamp="1600418603078">
+      <screen x="-580" y="-1057" width="2560" height="968" />
+    </state>
+    <state x="435" y="-749" key="EditFileWatcherDialog/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600418603078" />
+    <state width="1377" height="194" key="GridCell.Tab.0.bottom" timestamp="1600415826627">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1600370519009">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1377" height="194" key="GridCell.Tab.0.bottom/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826627" />
+    <state width="1377" height="194" key="GridCell.Tab.0.center" timestamp="1600415826626">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1600370519009">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1377" height="194" key="GridCell.Tab.0.center/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
+    <state width="1377" height="194" key="GridCell.Tab.0.left" timestamp="1600415826625">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1600370519009">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1377" height="194" key="GridCell.Tab.0.left/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826625" />
+    <state width="1377" height="194" key="GridCell.Tab.0.right" timestamp="1600415826626">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
+    <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
   </component>
 </project>
