@@ -20,56 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 1.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 11.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 12.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 13.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 14.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 4.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 6.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 7.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 8.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 9.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/avatar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/blog9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/coffee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/dashb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/dashb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/screenshot4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/slide1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/slide2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo/slide3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 10.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 11.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 12.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 13.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 14.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 2.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 3.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 4.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 6.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 8.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT 9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BAHNSCHRIFT.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -87,7 +55,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1heRumAXo6rHbl5xS01abfrIdZS" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
