@@ -554,3 +554,13 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 .navbar{
   background-color: white !important;
 }
+
+@media only screen and (min-width: 900px) {
+  #logo{
+   max-width: 40% !important;
+  }
+}
+@media only screen and (min-width: 1100px){
+  #dropdown{ padding-left: 50em !important;}
+
+}
