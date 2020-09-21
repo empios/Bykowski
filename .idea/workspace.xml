@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="Changes">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="Changes #2">
+      <change afterPath="$PROJECT_DIR$/assets/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/footer-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
@@ -58,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
     </key>
@@ -74,7 +77,8 @@
       <workItem from="1600415455635" duration="4565000" />
       <workItem from="1600434065954" duration="1213000" />
       <workItem from="1600518319518" duration="569000" />
-      <workItem from="1600519052641" duration="1559000" />
+      <workItem from="1600519052641" duration="1982000" />
+      <workItem from="1600710362688" duration="8722000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -83,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600518681116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes #2">
+      <created>1600520656937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600520656937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="Changes #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes #2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600433967735">
@@ -136,9 +148,9 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600518749422">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600520688879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600518749422" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600520688879" />
   </component>
 </project>

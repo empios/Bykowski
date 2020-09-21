@@ -550,17 +550,78 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 
 // END DOCS FOR DEMO ONLY
 
+body {
+  background: #f1f5f8;
+}
 
 .navbar{
   background-color: white !important;
 }
+ #customBorder{
+   border-top: 5px green solid !important;
+}
+.dropdown-menu::before{
+  border-top: 16px solid #fff !important;
+  transform: rotate(135deg) !important;
+  border-left: 16px green solid !important;
+}
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
+  .navbar {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
   #logo{
    max-width: 40% !important;
   }
 }
-@media only screen and (min-width: 1100px){
+@media only screen and (min-width: 1600px){
   #dropdown{ padding-left: 50em !important;}
 
+}
+
+@media only screen and(max-width: 900px)
+{
+  #avatar {
+    max-width: 30%;
+  }
+}
+
+@media only screen and(max-width: 1400px)
+{
+  #avatar {
+    max-width: 70%;
+  }
+}
+
+@media only screen and(min-width: 1400px)
+{
+  #avatar {
+    max-width: 65%;
+  }
+}
+@media only screen and(max-width: 900px)
+{
+  #footer {
+    max-height: 50%;
+  }
+}
+
+@media only screen and(max-width: 1400px)
+{
+  #footer {
+    max-height: 40%;
+  }
+}
+
+@media only screen and(min-width: 1400px)
+{
+  #footer {
+    max-height: 30%;
+  }
+}
+#cardId{
+  margin-top: -20px;
 }
