@@ -605,23 +605,71 @@ body {
 @media only screen and(max-width: 900px)
 {
   #footer {
-    max-height: 50%;
+    max-height: 70%;
   }
 }
 
 @media only screen and(max-width: 1400px)
 {
   #footer {
-    max-height: 40%;
+    max-height: 60%;
   }
 }
 
 @media only screen and(min-width: 1400px)
 {
   #footer {
-    max-height: 30%;
+    max-height: 50%;
   }
 }
 #cardId{
   margin-top: -20px;
 }
+
+@media only screen and(max-width: 900px)
+{
+  .banner {
+    max-width: 80%;
+  }
+}
+
+@media only screen and(max-width: 1400px)
+{
+  .banner {
+    max-width: 50%
+  }
+}
+
+@media only screen and(min-width: 1400px)
+{
+  .banner {
+    max-width: 40%;
+  }
+}
+
+@media only screen and(max-width: 900px)
+{
+  .logoIt {
+    height: 1vw;
+  }
+}
+
+@media only screen and(max-width: 1400px)
+{
+  .logoIt {
+    height: 1.5vw;
+  }
+}
+
+@media only screen and(min-width: 1400px)
+{
+  .logoIt {
+    height: 2vw;
+  }
+}
+
+a:hover {
+  color: green;
+}
+
+

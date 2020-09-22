@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="Changes #2">
-      <change afterPath="$PROJECT_DIR$/assets/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/footer-logo.png" afterDir="false" />
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="navbar">
+      <change afterPath="$PROJECT_DIR$/assets/img/czas_it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/facebook_bykowski.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/image@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/List.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
@@ -38,8 +40,16 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1heRumAXo6rHbl5xS01abfrIdZS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,8 +70,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
       <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
     </key>
   </component>

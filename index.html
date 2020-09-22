@@ -22,7 +22,13 @@
     
 </head>
     
-<body> 
+<body>
+
+<script>
+	function changeColor() {
+		document.getElementById('arrowDown').style.color = 'green'
+	}
+</script>
     
 <!--------------------------------------
 NAVBAR
@@ -78,18 +84,17 @@ HEADER
 --------------------------------------->
 <div class="container-fluid">
 <div class="row">
-	<div class="col-lg-3 col-6 m-auto text-sm-center text-md-center text-lg-left">
+	<div class="col-lg-3 col-6 m-auto text-sm-center text-md-center text-lg-left pt-sm-5 pt-md-5">
 			<h1>Akademia <strong>Spring</strong></h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 			<button class="btn btn-info btn-round">Zapisz się</button>
 	</div>
-	<div class="col-12 col-lg-6 pt-5 pr-5">
+	<div class="col-12 col-lg-6 pt-5 pr-5 ml-sm-3 ml-md-3">
 		<div class="row">
-			<div class="col-lg-3 col-12"></div>
+			<div class="col-lg-3 col-12 text-center"></div>
 			<div class="col-lg-6 col-12 text-center">
 			<img src="./assets/img/avatar.png" id="avatar" style="display:block; margin: auto;">
-				<div style="">
-			<div class="card shadow-sm border-0" id="cardId">
+			<div class="card shadow-sm border-0 " id="cardId">
 				<div class="card-body">
 					<p class="card-text text-muted">
 						Prowadzący kurs
@@ -98,13 +103,17 @@ HEADER
 					<div class="col-lg-3"></div>
 				</div>
 				</div>
-				</div>
 
 			</div>
 		</div>
 
 	</div>
 </div>
+	<div class="row">
+		<div class="col-12 text-center pt-5">
+		<a class="ct-btn-scroll ct-js-btn-scroll" href="#footer"><i id="arrowDown" class="far fa-arrow-alt-circle-down fa-3x" style="color: #DCE3E6;"></i></a>
+		</div>
+	</div>
 </div>
 <!-- End Header -->
 
@@ -112,9 +121,246 @@ HEADER
 <!--------------------------------------
 MAIN
 --------------------------------------->
-<div class="container pt-5 pb-5">
-Your content area goes here
+<div class="container-fluid pr-5 pl-5 pt-5 pb-5">
+	<div class="row">
+		<div class="col-12 text-center">
+			<h2><strong>Wybierz kurs dla siebie</strong></h2>
+			<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan suscipit turpis id congue. Phasellus ac massa eget massa auctor.</p>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+					<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
 </div>
+
+<div class="container-fluid pr-5 pl-5 pt-5 pb-5">
+	<div class="row">
+		<div class="col-12 text-center">
+			<h2><strong>Zapisy do webinarów</strong></h2>
+			<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan suscipit turpis id congue. Phasellus ac massa eget massa auctor.</p>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 col-sm-6">
+			<div class="card shadow-sm border-0 w-100">
+				<img class="card-img-top" src="./assets/img/image@2x.png" alt="">
+				<div class="card-body">
+					<h5 class="card-title">Kurs Spring boot 2</h5>
+					<p class="card-text text-muted">
+						ETAP I
+						<br>
+						<br>
+						Tworzenie efektywnych aplikacji internetowych
+					</p>
+					<div class="container-fluid text-right">
+						<a href="#" style="color: #707070" class="small">Poznaj szczegóły<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
 <!-- End Main -->
     
     
@@ -122,16 +368,25 @@ Your content area goes here
 FOOTER
 --------------------------------------->
 <footer style="background-color: #1D2527">
-<div class="container">
-	<div class="row pt-5">
-		<div class="col-4">
+<div class="container-fluid">
+	<div class="row m-auto pt-3">
+		<div class="col-3 small text-center pt-2">
 		<img src="./assets/img/footer-logo.png" id="footer" class="img-fluid">
+			<div id="iconsFooter">
+			<span class="iconmedium text-white shadow border-0"><i class="fab fa-instagram fa-2x"></i></span>
+			<span class="iconmedium text-white shadow border-0"><i class="fab fa-youtube fa-2x"></i></span>
+			<span class="iconmedium text-white shadow border-0"><i class="fab fa-facebook-square fa-2x"></i></span>
+			<span class="iconmedium text-white shadow border-0"><i class="fab fa-twitter-square fa-2x"></i></span>
+			<span class="iconmedium text-white shadow border-0"><i class="fab fa-linkedin fa-2x"></i></span>
+			</div>
 		</div>
-		<div class="col-4">
-
+		<div class="col-6 text-white text-center pt-2 pb-2 pl-2 m-auto">
+			<a>Polityka Prywatności</a> | <a>Regulamin</a> | &copy; <script>document.write(new Date().getFullYear())</script> Akademia Spring
+			<p class="small"> &copy; Zbudowano z pomocą Anchor Bootstrap UI Kit</p>
 		</div>
-		<div class="col-4">
-
+		<div class="col-3 text-center m-auto pb-3">
+			<img class="logoIt" src="./assets/img/czas_it.png" style=" margin: auto;" >
+			<img class="banner" src="./assets/img/facebook_bykowski.png" style="margin: auto; padding-left: 2vw;">
 		</div>
 	</div>
 </div>
@@ -147,6 +402,7 @@ JAVASCRIPTS
 <script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
 <script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
 <script src="./assets/js/functions.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/List.js" type="text/javascript"></script>
     
 <!-- Animation -->
 <script src="./assets/js/vendor/aos.js" type="text/javascript"></script>
