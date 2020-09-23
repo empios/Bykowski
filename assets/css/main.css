@@ -9980,4 +9980,17 @@ a:hover {
 .pagination li {
   display: none; }
 
+ul {
+  list-style-type: none; }
+
+.rectangle3 {
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  position: absolute;
+  z-index: -1;
+  margin-bottom: 10em;
+  margin-left: 6em;
+  top: -10px; }
+
 /*# sourceMappingURL=main.css.map */

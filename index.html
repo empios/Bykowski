@@ -376,26 +376,94 @@ MAIN
 	<div class="row pt-5">
 		<div class="col-12" id="eventlist">
 			<ul class="list">
-				<li><p class="event">Guybrush Threepwood</p></li>
-				<li><p class="event">Elaine Marley</p></li>
-				<li><p class="event">LeChuck</p></li>
-				<li><p class="event">Stan</p></li>
-				<li><p class="event">Voodoo Lady</p></li>
-				<li><p class="event">Herman Toothrot</p></li>
-				<li><p class="event">Meathook</p></li>
-				<li><p class="event">Carla</p></li>
-				<li><p class="event">Otis</p></li>
-				<li><p class="event">Rapp Scallion</p></li>
-				<li><p class="event">Rum Rogers Sr.</p></li>
-				<li><p class="event">Men of Low Moral Fiber</p></li>
-				<li><p class="event">Murray</p></li>
-				<li><p class="event">Cannibals</p></li>
+				<li class="row pb-5">
+					<div class="col-2">
+						<div class="rectangle3 shadow">
+						</div>
+						<div class="card text-center shadow" style="width: 6vw;">
+							<div class="card-body">
+								<h4 class="event card-title"><strong>13</strong></h4>
+								<p class="card-text text-muted">Czerwiec</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-5">
+						<h2 class="event">Kurs Spring Boot 2</h2>
+						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
+					</div>
+				</li>
+				<li class="row pb-5">
+					<div class="col-2">
+						<div class="rectangle3 shadow">
+						</div>
+						<div class="card text-center shadow" style="width: 6vw;">
+							<div class="card-body">
+								<h4 class="event card-title"><strong>13</strong></h4>
+								<p class="card-text text-muted">Czerwiec</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-5">
+						<h2 class="event">Kurs Spring Boot 2</h2>
+						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
+					</div>
+				</li>
+				<li class="row pb-5">
+					<div class="col-2">
+						<div class="rectangle3 shadow">
+						</div>
+						<div class="card text-center shadow" style="width: 6vw;">
+							<div class="card-body">
+								<h4 class="event card-title"><strong>13</strong></h4>
+								<p class="card-text text-muted">Czerwiec</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-5">
+						<h2 class="event">Kurs Spring Boot 2</h2>
+						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
+					</div>
+				</li>
+				<li class="row pb-5">
+					<div class="col-2">
+						<div class="rectangle3 shadow">
+						</div>
+						<div class="card text-center shadow" style="width: 6vw;">
+							<div class="card-body">
+								<h4 class="event card-title"><strong>13</strong></h4>
+								<p class="card-text text-muted">Czerwiec</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-5">
+						<h2 class="event">Kurs Spring Boot 2</h2>
+						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
+					</div>
+				</li>
+				<li class="row pb-5">
+					<div class="col-2">
+					<div class="rectangle3 shadow">
+					</div>
+					<div class="card text-center shadow" style="width: 6vw;">
+						<div class="card-body">
+							<h4 class="event card-title"><strong>13</strong></h4>
+							<p class="card-text text-muted">Czerwiec</p>
+						</div>
+					</div>
+					</div>
+					<div class="col-5">
+						<h2 class="event">Kurs Spring Boot 2</h2>
+						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
+					</div>
+				</li>
+
+
 			</ul>
 			<ul style="list-style: none; display: inline-block;">
-				<li class="previous page-item" style="width: fit-content; float: left;"><a class="page-link" >Prev</a></li>
+				<li class="previous page-item rounded shadow" style="width: fit-content; float: left;"><a class="page-link" ><i class="fas fa-arrow-left text-black-50"></i></a></li>
 				<ul class="pagination" style="float: left;"></ul>
 				<h4 class="pageInfo" style="float: left"></h4>
-				<li class="next page-item" style="width: fit-content; float: left;"><a class="page-link" >Next</a></li>
+				<li class="next page-item rounded shadow" style="width: fit-content; float: left;"><a class="page-link" ><i class="fas fa-arrow-right text-black-50"></i></a></li>
 			</ul>
 		</div>
 
@@ -480,24 +548,31 @@ AOS.init({
 		pagination: true
 	});
 
+	var counterPages = 1;
+
 	console.log(eventList.size())
-	$('.pageInfo').text( eventList.i + "/" + Math.round(eventList.size()/eventList.page));
-	console.log(eventList.i)
+	$('.pageInfo').text( counterPages + "/" + Math.round(eventList.size()/eventList.page));
 
 	$('.next').on('click' , function(){
 		$('.pagination').find('.active').next().trigger( "click" );
-		console.log(eventList.i)
-		eventList.i += 1;
-		$('.pageInfo').text( eventList.i + "/" + Math.round(eventList.size()/eventList.page));
-		console.log(eventList.i)
+		if (counterPages< Math.round(eventList.size()/eventList.page)){
+			counterPages += 1;
+		}
+		else {
+			counterPages = Math.round(eventList.size()/eventList.page);
+		}
+		$('.pageInfo').text( counterPages + "/" + Math.round(eventList.size()/eventList.page));
 	});
 
 	$('.previous').on('click' , function(){
 		$('.pagination').find('.active').prev().trigger( "click" );
-		console.log(eventList.i)
-		eventList.i--;
-		$('.pageInfo').text( eventList.i + "/" + Math.round(eventList.size()/eventList.page));
-		console.log(eventList.i)
+			if (counterPages<2){
+				counterPages=1;
+			}
+			else {
+				counterPages -= 1;
+			}
+		$('.pageInfo').text( counterPages + "/" + Math.round(eventList.size()/eventList.page));
 	});
 
 </script>
