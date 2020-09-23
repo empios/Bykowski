@@ -24,11 +24,7 @@
     
 <body>
 
-<script>
-	function changeColor() {
-		document.getElementById('arrowDown').style.color = 'green'
-	}
-</script>
+
     
 <!--------------------------------------
 NAVBAR
@@ -361,6 +357,52 @@ MAIN
 	</div>
 </div>
 
+
+<div class="container pr-5 pl-5 pt-5 pb-5">
+	<div class="row">
+		<div class="col-2">
+			<div class="rectangle shadow-lg">
+			</div>
+			<div class="rectangle2 shadow">
+				<i class="far fa-calendar-alt text-white fa-3x"></i>
+			</div>
+		</div>
+		<div class="col-6">
+			<h1>Nadchodzące wydarzenia</h1>
+			<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		</div>
+	</div>
+
+	<div class="row pt-5">
+		<div class="col-12" id="eventlist">
+			<ul class="list">
+				<li><p class="event">Guybrush Threepwood</p></li>
+				<li><p class="event">Elaine Marley</p></li>
+				<li><p class="event">LeChuck</p></li>
+				<li><p class="event">Stan</p></li>
+				<li><p class="event">Voodoo Lady</p></li>
+				<li><p class="event">Herman Toothrot</p></li>
+				<li><p class="event">Meathook</p></li>
+				<li><p class="event">Carla</p></li>
+				<li><p class="event">Otis</p></li>
+				<li><p class="event">Rapp Scallion</p></li>
+				<li><p class="event">Rum Rogers Sr.</p></li>
+				<li><p class="event">Men of Low Moral Fiber</p></li>
+				<li><p class="event">Murray</p></li>
+				<li><p class="event">Cannibals</p></li>
+			</ul>
+			<ul style="list-style: none; display: inline-block;">
+				<li class="previous page-item" style="width: fit-content; float: left;"><a class="page-link" >Prev</a></li>
+				<ul class="pagination" style="float: left;"></ul>
+				<h4 class="pageInfo" style="float: left"></h4>
+				<li class="next page-item" style="width: fit-content; float: left;"><a class="page-link" >Next</a></li>
+			</ul>
+		</div>
+
+
+	</div>
+</div>
+
 <!-- End Main -->
     
     
@@ -429,6 +471,35 @@ AOS.init({
     return window.innerWidth < maxWidth;
   }
 });
+</script>
+
+<script>
+	var eventList = new List('eventlist', {
+		valueNames: ['event'],
+		page: 3,
+		pagination: true
+	});
+
+	console.log(eventList.size())
+	$('.pageInfo').text( eventList.i + "/" + Math.round(eventList.size()/eventList.page));
+	console.log(eventList.i)
+
+	$('.next').on('click' , function(){
+		$('.pagination').find('.active').next().trigger( "click" );
+		console.log(eventList.i)
+		eventList.i += 1;
+		$('.pageInfo').text( eventList.i + "/" + Math.round(eventList.size()/eventList.page));
+		console.log(eventList.i)
+	});
+
+	$('.previous').on('click' , function(){
+		$('.pagination').find('.active').prev().trigger( "click" );
+		console.log(eventList.i)
+		eventList.i--;
+		$('.pageInfo').text( eventList.i + "/" + Math.round(eventList.size()/eventList.page));
+		console.log(eventList.i)
+	});
+
 </script>
 
 </body>

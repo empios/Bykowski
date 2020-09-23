@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="navbar">
-      <change afterPath="$PROJECT_DIR$/assets/img/czas_it.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/facebook_bykowski.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/image@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/List.js" afterDir="false" />
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
@@ -89,6 +85,7 @@
       <workItem from="1600518319518" duration="569000" />
       <workItem from="1600519052641" duration="1982000" />
       <workItem from="1600710362688" duration="8722000" />
+      <workItem from="1600844480248" duration="5394000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -104,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600520656937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="content">
+      <created>1600782681547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600782681547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="Changes #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes #2" />
+    <MESSAGE value="content" />
+    <option name="LAST_COMMIT_MESSAGE" value="content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600433967735">
@@ -158,9 +163,10 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600520688879">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="156" y="-804" key="Vcs.Push.Dialog.v2" timestamp="1600782696854">
+      <screen x="-580" y="-1057" width="2560" height="1057" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600520688879" />
+    <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
   </component>
 </project>

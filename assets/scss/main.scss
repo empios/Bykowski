@@ -673,3 +673,26 @@ a:hover {
 }
 
 
+.rectangle{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  z-index: -1;
+  margin-top:2em;
+}
+
+.rectangle2{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin-left: 2em;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.pagination li {
+  display:none;
+}
+
