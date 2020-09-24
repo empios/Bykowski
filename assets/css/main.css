@@ -9957,8 +9957,12 @@ body {
   .logoIt {
     height: 2vw; } }
 
+html {
+  scroll-behavior: smooth; }
+
 a:hover {
-  color: green; }
+  color: #0fb1ff;
+  opacity: 0.5; }
 
 .rectangle {
   height: 100px;
@@ -9991,20 +9995,20 @@ ul {
     position: absolute;
     z-index: -1;
     margin-bottom: 10em;
-    left: 35%;
-    top: -9px; } }
-
-@media only screen and (min-width: 550px) {
-  .rectangle3 {
-    height: 40px;
-    width: 40px;
-    background-color: green;
-    position: absolute;
-    z-index: -1;
-    margin-bottom: 10em;
     left: 38%;
     top: -9px; } }
 
+@media only screen and (min-width: 400px) {
+  .rectangle3 {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 40%;
+    top: -9px; } }
+
 @media only screen and (min-width: 550px) {
   .rectangle3 {
     height: 40px;
@@ -10013,7 +10017,7 @@ ul {
     position: absolute;
     z-index: -1;
     margin-bottom: 10em;
-    left: 42%;
+    left: 45%;
     top: -9px; } }
 
 @media only screen and (min-width: 980px) {
@@ -10057,7 +10061,7 @@ ul {
     position: absolute;
     z-index: -1;
     margin-bottom: 10em;
-    left: 43%;
+    left: 45%;
     top: -9px; } }
 
 @media only screen and (min-width: 300px) {
@@ -10066,7 +10070,7 @@ ul {
 
 @media only screen and (min-width: 450px) {
   #figure {
-    padding-left: 11em; } }
+    padding-left: 9em; } }
 
 @media only screen and (min-width: 550px) {
   #figure {
@@ -10083,5 +10087,17 @@ ul {
 @media only screen and (min-width: 992px) {
   #figure {
     padding-left: 0em; } }
+
+@media only screen and (min-width: 1600px) {
+  #figure {
+    padding-left: 9em; } }
+
+@media only screen and (max-height: 993px) {
+  #buttons {
+    text-align: center; } }
+
+@media only screen and (max-height: 993px) {
+  #flower {
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
