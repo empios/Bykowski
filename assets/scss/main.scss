@@ -699,15 +699,140 @@ ul {
   list-style-type: none;
 }
 
-.rectangle3{
-  height: 40px;
-  width: 40px;
-  background-color: green;
-  position: absolute;
-  z-index: -1;
-  margin-bottom: 10em;
-  margin-left: 6em;
-  top: -10px;
-
+@media only screen and(min-width: 200px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 35%;
+    top: -9px;
+  }
 }
+
+@media only screen and(min-width: 550px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 38%;
+    top: -9px;
+  }
+}
+
+@media only screen and(min-width: 550px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 42%;
+    top: -9px;
+  }
+}
+
+@media only screen and(min-width: 980px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 43%;
+    top: -9px;
+  }
+}
+
+@media only screen and(min-width: 1000px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 40%;
+    top: -9px;
+  }
+}
+
+@media only screen and(min-width: 1170px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 41%;
+    top: -9px;
+  }
+}
+
+@media only screen and(min-width: 1270px) {
+  .rectangle3{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 10em;
+    left: 43%;
+    top: -9px;
+  }
+}
+
+
+@media only screen and(min-width: 300px)
+{
+  #figure {
+    padding-left: 5em;
+  }
+}
+
+@media only screen and(min-width: 450px)
+{
+  #figure {
+    padding-left: 11em;
+  }
+}
+
+@media only screen and(min-width: 550px)
+{
+  #figure {
+    padding-left: 13em;
+  }
+}
+
+@media only screen and(min-width: 710px)
+{
+  #figure {
+    padding-left: 16em;
+  }
+}
+
+@media only screen and(min-width: 900px)
+{
+  #figure {
+    padding-left: 25em;
+  }
+}
+
+
+@media only screen and(min-width: 992px)
+{
+  #figure {
+    padding-left: 0em;
+  }
+}
+
+
 
