@@ -334,7 +334,7 @@ a {
             text-transform: uppercase;
             }
         }
-    a:hover {text-decoration:none; color: $primary;}
+    a:hover {text-decoration:none; color: #008000;}
 }
     
 .card-pricing .card ul li {
@@ -549,9 +549,9 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
 
 // END DOCS FOR DEMO ONLY
-
+$background = #f1f5f8;
 body {
-  background: #f1f5f8;
+  background: $background;
 }
 
 .navbar{
@@ -674,8 +674,9 @@ html {
 
 
 a:hover {
-  color: #0fb1ff;
+  color: #008000 !important;
   opacity:0.5;
+  background-color: transparent !important;
 }
 
 
@@ -701,7 +702,7 @@ a:hover {
 .pagination li {
   display:none;
 }
-ul {
+.eventsView {
   list-style-type: none;
 }
 
@@ -861,6 +862,55 @@ ul {
 {
   #flower {
     text-align: center;
+  }
+}
+
+.greenHover:hover{
+  i{
+    color: white !important;
+  }
+
+  background-color: #00A900 !important;
+}
+
+@media only screen and (min-width: 200px ) {
+  #flowers{
+    position: absolute;
+    z-index: -1;
+    bottom: 15%;
+    left: 8%;
+    width: 30% !important;
+  }
+}
+
+@media only screen and (min-width: 400px ) {
+  #flowers{
+    position: absolute;
+    z-index: -1;
+    bottom: -19%;
+    left: 1%;
+    width: 40% !important;
+  }
+}
+
+
+@media only screen and (min-width: 580px){
+  #flowers{
+    position: absolute;
+    z-index: -1;
+    bottom: -15%;
+    margin-right: 2em;
+    width: 30% !important;
+    left: 18%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  #flowers{
+    position: absolute;
+    z-index: -1;
+    bottom: -15%;
+    width: 50% !important;
   }
 }
 

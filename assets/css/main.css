@@ -9420,7 +9420,7 @@ a {
 
 .card a:hover {
   text-decoration: none;
-  color: #502c6c; }
+  color: #008000; }
 
 .card-pricing .card ul li {
   margin-bottom: 1.5rem; }
@@ -9961,8 +9961,9 @@ html {
   scroll-behavior: smooth; }
 
 a:hover {
-  color: #0fb1ff;
-  opacity: 0.5; }
+  color: #008000 !important;
+  opacity: 0.5;
+  background-color: transparent !important; }
 
 .rectangle {
   height: 100px;
@@ -9984,7 +9985,7 @@ a:hover {
 .pagination li {
   display: none; }
 
-ul {
+.eventsView {
   list-style-type: none; }
 
 @media only screen and (min-width: 200px) {
@@ -10099,5 +10100,45 @@ ul {
 @media only screen and (max-height: 993px) {
   #flower {
     text-align: center; } }
+
+.greenHover:hover {
+  background-color: #00A900 !important; }
+  .greenHover:hover i {
+    color: white !important; }
+
+@media only screen and (min-width: 200px) {
+  #flowers {
+    position: absolute;
+    z-index: -1;
+    bottom: 15%;
+    left: 8%;
+    width: 30% !important; } }
+
+@media only screen and (min-width: 400px) {
+  #flowers {
+    position: absolute;
+    z-index: -1;
+    bottom: -19%;
+    left: 1%;
+    width: 40% !important; } }
+
+@media only screen and (min-width: 580px) {
+  #flowers {
+    position: absolute;
+    z-index: -1;
+    bottom: -15%;
+    margin-right: 2em;
+    width: 30% !important;
+    left: 18%; } }
+
+@media only screen and (min-width: 993px) {
+  #flowers {
+    position: absolute;
+    z-index: -1;
+    bottom: -15%;
+    width: 50% !important; } }
+
+.priceTable {
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */

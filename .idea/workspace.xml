@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="list js">
+      <change afterPath="$PROJECT_DIR$/Oferta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/leafs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
@@ -60,11 +63,14 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/HACKATHON" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
@@ -142,11 +148,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="list js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600433967735">
+    <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601033971288">
       <screen x="-580" y="-1057" width="2560" height="968" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600370674565" />
-    <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600433967735" />
+    <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1601033971288" />
     <state x="518" y="248" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-580.-1057.2560.968@0.23.1440.877" timestamp="1600419774240" />
     <state x="435" y="-749" key="EditFileWatcherDialog" timestamp="1600418603078">
       <screen x="-580" y="-1057" width="2560" height="968" />
@@ -178,5 +184,9 @@
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600520688879" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
     <state x="156" y="-825" key="Vcs.Push.Dialog.v2/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600869321919" />
+    <state x="363" y="-824" width="672" height="678" key="search.everywhere.popup" timestamp="1601027471663">
+      <screen x="-580" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="363" y="-824" width="672" height="678" key="search.everywhere.popup/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1601027471663" />
   </component>
 </project>
