@@ -549,7 +549,7 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
 
 // END DOCS FOR DEMO ONLY
-$background = #f1f5f8;
+$background: #f1f5f8;
 body {
   background: $background;
 }
@@ -913,5 +913,62 @@ a:hover {
     width: 50% !important;
   }
 }
+.accordion-menu > a {
+  display: block;
+  position: relative;
+}
+.accordion-menu > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.accordion-menu > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
 
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.topbutton {
+  bottom: 4em !important;
+}
+
+blockquote {
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: .5rem;
+  border: 1px solid #D6D6D6;
+  border-radius: 1rem;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #D6D6D6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: '“';
+  left: -1.5rem;
+  top: -3rem;
+}
+
+blockquote:after {
+  content: '”';
+  right: -1.5rem;
+  bottom: -1rem;
+}
+
+.trapezoidbutton {
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
 
