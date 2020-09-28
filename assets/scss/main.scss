@@ -972,3 +972,15 @@ blockquote:after {
   clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
 }
 
+.trapezoidbuttonOther {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 16% 100%);
+}
+
+.changeCol:hover {
+  background-color: #DCE3E6 !important;
+}
+
+.textCol:hover{
+  color: black !important;
+}
+

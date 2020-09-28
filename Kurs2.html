@@ -29,47 +29,46 @@
 NAVBAR
 --------------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light">
-<div class="container-fluid">
-	<img class="navbar-brand" id="logo" src="./assets/img/Logo.png" alt="">
-	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="navbar-collapse collapse" id="navbarColor02" style="">
-		<ul class="navbar-nav ml-auto d-flex align-items-center" id="dropdown">
-			<li class="nav-item">
-			<a class="nav-link" href="index.html">Kursy</a>
-			</li>
-			<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pakiety </a>
-			<div class="dropdown-menu border-top" id="customBorder" aria-labelledby="navbarDropdown">
-				<a class="dropdown-item" href="#">Spring Boot 2</a>
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="#">Hibernate</a>
-			</div>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#">Nadchodzące wydarzenia</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">FAQ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">O mnie</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Opinie</a>
-			</li>
-		</ul>
-		<ul class="navbar-nav ml-auto d-flex align-items-center">
-			<li class="nav-item">
+	<div class="container-fluid">
+		<a href="./index.html" ><img class="navbar-brand" id="logo" src="./assets/img/Logo.png" alt=""></a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse" id="navbarColor02" style="">
+			<ul class="navbar-nav ml-auto d-flex align-items-center" id="dropdown">
+				<li class="nav-item">
+					<a class="nav-link" href="#kursy">Kursy</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pakiety </a>
+					<div class="dropdown-menu border-top" id="customBorder" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Spring Boot 2</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Hibernate</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#wydarzenia">Nadchodzące wydarzenia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./Oferta.html#faq">FAQ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#omnie">O mnie</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./Kurs.html#opinie">Opinie</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto d-flex align-items-center">
+				<li class="nav-item">
 			<span class="nav-link" href="#">
 				<a class="btn btn-outline-dark" href="#" data-toggle="modal" data-target="#modal_newsletter"> Zaloguj się </a>
-			</a>
 			</span>
-			</li>
-		</ul>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
 </nav>
 <!-- End Navbar -->
 
@@ -145,18 +144,21 @@ MAIN
 			</div>
 		</div>
 		<div class="col-12 col-lg-2 m-auto text-center text-lg-left">
-			<button class="btn btn-round shadow-lg text-white w-100" style="background-color: forestgreen">Zapisz się</button>
+			<button onclick="window.location.href='./index.html'" class="btn btn-round shadow-lg text-white shadow" style="background-color: forestgreen;">Zapisz się</button>
 		</div>
 	</div>
 </div>
 <div class="container-fluid pr-5 pl-5 pt-5 pb-5">
 	<div class="row">
-		<div class="col-6">
-			<button class="trapezoidbutton float-right w-75 btn-rounded text-white shadow-lg" style="background-color: forestgreen"><p class=" pt-2 w-75"><strong>Część I</strong><br>Tworzenie efektywnych aplikacji internetowych</p></button>
+		<div class="col-12 col-md-6 text-center">
+			<a id="btn1" class="btn changeCol trapezoidbutton float-md-right w-75 btn-rounded text-white shadow" style="background-color: forestgreen; border-radius: 0.75rem;"><p class="textCol text-center w-75"><strong>Część I</strong><br>Tworzenie efektywnych aplikacji internetowych</p></a>
+		</div>
+		<div class="col-12 col-md-6 text-center pt-4 pt-md-0">
+			<a id="btn2" class="btn changeCol trapezoidbuttonOther float-md-left w-75 h-100 btn-rounded text-white shadow" style="background-color: forestgreen; border-radius: 0.75rem;"><p class="textCol m-auto w-75"><strong>Część II</strong><br>Tworzenie efektywnych aplikacji internetowych</p></a>
 		</div>
 	</div>
 </div>
-<div class="container-fluid pr-5 pl-5 pt-5 pb-5 rounded" style="background-color: #DCE3E6; width: 95%">
+<div id="div1" class="container-fluid pr-5 pl-5 pt-5 pb-5 rounded" style="background-color: #DCE3E6; width: 95%">
 	<div class="row">
 		<div class="col-12 col-lg-6 m-auto">
 			<h4 class="pb-3"><strong>Co otrzymam przystępując do kursu?</strong></h4>
@@ -173,7 +175,7 @@ MAIN
 			</ul>
 		</div>
 		<div class="col-12 text-center col-lg-6">
-			<img class="img-fluid rounded" src="./assets/img/image@2x.png">
+			<img class="img-fluid rounded" src="./assets/img/CertyfikatSpring.png">
 		</div>
 	</div>
 	<div class="row">
@@ -454,6 +456,306 @@ MAIN
 		</div>
 	</div>
 </div>
+
+<div id="div2" class="container-fluid pr-5 pl-5 pt-5 pb-5 rounded " style="background-color: #DCE3E6; width: 95%; display: none">
+	<div class="row">
+		<div class="col-12 col-lg-6 m-auto">
+			<h4 class="pb-3"><strong>Co otrzymam przystępując do kursu Część II?</strong></h4>
+			<ul style="list-style-image: url('./assets/img/leaf.png');">
+				<li class="pt-2">Obszerny 12-nasto, 6-cio lub 18-nasto tygodniowy kurs video, który przygotuje Cię do tworzenia zaawansowanych aplikacji internetowych.</li>
+				<li class="pt-2">Zbiór licznych przykładów i prac domowych.</li>
+				<li class="pt-2">Atrakcyjne quizy i testy wiedzy.</li>
+				<li class="pt-2">Dołączysz do grupy wspaniałych osób dzielących się wiedzą, przez którą zyskasz siły do działania, nie poczujesz się samotnie i nawiążesz kontakty.</li>
+				<li class="pt-2">Spędzisz mało czasu zdobywając dużo wiedzy.</li>
+				<li class="pt-2">Licencję na oprogramowanie IntelliJ IDEA.</li>
+				<li class="pt-2">Dostęp do materiałów i kodów źródłowych.</li>
+				<li class="pt-2">Realny wpływ na program kursu. Ten program to nie koniec, nowe materiały tworzę regularnie!</li>
+				<li class="pt-2">Dożywotnią aktualizację programu i wszystkich materiałów.</li>
+			</ul>
+		</div>
+		<div class="col-12 text-center col-lg-6">
+			<img class="img-fluid rounded" src="./assets/img/CertyfikatSpring.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<h5><strong>Program szkolenia</strong></h5>
+		</div>
+	</div>
+
+	<div class="row pt-5">
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="col-12 col-lg-4">
+
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-12 col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="col-12 col-lg-4">
+
+			<div class="card">
+				<div class="card-body">
+					<div class="text-right">
+						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+					</div>
+					<h5 class="card-title">Plan gry</h5>
+					<p class="card-text">
+					<ul style="list-style: decimal">
+						<li>Powitanie</li>
+						<li>Model-View-Controller</li>
+						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+						<li>Vaadin I</li>
+						<li>Vaadin II </li>
+						<li>Thymeleaf</li>
+						<li>React</li>
+						<li>Quiz <i class="far fa-clipboard"></i></li>
+						<li>Praca domowa <i class="fas fa-home"></i></li>
+						<li>Notatki <i class="fas fa-pen"></i></li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-12 col-lg-4 text-center text-lg-right">
+			<img class="img-fluid rounded" src="./assets/img/spotkanie.png">
+		</div>
+		<div class="col-12 col-lg-8 m-auto pt-3 text-center text-lg-left pt-lg-0">
+			<h4><strong>Poznaj opinie uczestników</strong></h4>
+			<p class="text-muted2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-12 col-lg-4 mt-5">
+			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		</div>
+		<div class="col-12 col-lg-4 mt-5">
+			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		</div>
+		<div class="col-12 col-lg-4 mt-5">
+			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		</div>
+	</div>
+	<div class="row pt-5">
+		<div class="col-12 col-lg-4 mt-5">
+			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		</div>
+		<div class="col-12 col-lg-4 mt-5">
+			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		</div>
+		<div class="col-12 col-lg-4 mt-5">
+			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		</div>
+	</div>
+</div>
+
 	<div class="container-fluid pr-5 pl-5 pt-5 pb-5">
 		<div class="row">
 			<div class="col-12 col-lg-7">
@@ -575,5 +877,20 @@ AOS.init({
 	$('iframe[src*="youtube"]').parent().fitVids();
 </script>
 
+<script>
+	$('#btn1').on('click', function (){
+		if ($('#div1').css('display') === 'none'){
+			$('#div1').show();
+			$('#div2').hide();
+		}
+	})
+
+	$('#btn2').on('click', function (){
+		if ($('#div2').css('display') === 'none'){
+			$('#div2').show();
+			$('#div1').hide();
+		}
+	})
+</script>
 </body>
 </html>
