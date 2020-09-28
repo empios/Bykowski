@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="list js">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Group 146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tlo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tlo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kurs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kurs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kurs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oferta.html" beforeDir="false" afterPath="$PROJECT_DIR$/Oferta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,16 +65,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
-      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\js\vendor" />
-      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\js" />
-      <recent name="$PROJECT_DIR$/assets/fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KODY\JAVASCRIPT\Bykowski" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\js\vendor" />
+      <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\js" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
