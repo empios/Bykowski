@@ -9889,10 +9889,26 @@ body {
 #customBorder {
   border-top: 5px green solid !important; }
 
-.dropdown-menu::before {
+.dropdown-menu:before {
   border-top: 16px solid #fff !important;
   transform: rotate(135deg) !important;
-  border-left: 16px green solid !important; }
+  border-left: 16px green solid !important;
+  margin-left: 1em !important;
+  content: ""; }
+
+@media only screen and (max-width: 991px) {
+  .dropdown-menu::before {
+    margin-top: 3.55em; } }
+
+@media only screen and (max-width: 767px) {
+  .dropdown-menu::before {
+    border-top: 16px solid #fff !important;
+    transform: rotate(135deg) !important;
+    border-left: 16px green solid !important;
+    margin-left: 4.0em !important;
+    position: absolute;
+    content: "";
+    margin-top: -1.0em; } }
 
 @media only screen and (max-width: 900px) {
   .navbar {
@@ -9916,7 +9932,7 @@ body {
 
 @media only screen and (min-width: 1400px) {
   #avatar {
-    max-width: 65%; } }
+    max-width: 85%; } }
 
 @media only screen and (max-width: 900px) {
   #footer {
@@ -10201,5 +10217,9 @@ blockquote:after {
 
 .textCol:hover {
   color: black !important; }
+
+.lineargradient {
+  background: green !important;
+  background: linear-gradient(90deg, green 31%, #00a900 100%) !important; }
 
 /*# sourceMappingURL=main.css.map */

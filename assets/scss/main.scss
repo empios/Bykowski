@@ -559,11 +559,36 @@ body {
 }
  #customBorder{
    border-top: 5px green solid !important;
+
 }
-.dropdown-menu::before{
+.dropdown-menu:before{
   border-top: 16px solid #fff !important;
   transform: rotate(135deg) !important;
   border-left: 16px green solid !important;
+  margin-left: 1em !important;
+  content:"";
+}
+
+@media only screen and (max-width: 991px) {
+  .dropdown-menu::before{
+
+    margin-top: 3.55em;
+
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dropdown-menu::before{
+
+    border-top: 16px solid #fff !important;
+    transform: rotate(135deg) !important;
+    border-left: 16px green solid !important;
+    margin-left: 4.0em !important;
+    position: absolute;
+    content: "";
+    margin-top: -1.0em;
+
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -599,7 +624,7 @@ body {
 @media only screen and(min-width: 1400px)
 {
   #avatar {
-    max-width: 65%;
+    max-width: 85%;
   }
 }
 @media only screen and(max-width: 900px)
@@ -984,3 +1009,7 @@ blockquote:after {
   color: black !important;
 }
 
+.lineargradient{
+  background: rgb(0,128,0)!important;
+  background: linear-gradient(90deg, rgba(0,128,0,1) 31%, rgba(0,169,0,1) 100%)!important;
+}

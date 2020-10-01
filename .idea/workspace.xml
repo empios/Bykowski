@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="-Changes#3">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="-finished mainpage without color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +96,8 @@
       <workItem from="1601140486591" duration="599000" />
       <workItem from="1601201225422" duration="23920000" />
       <workItem from="1601401178433" duration="623000" />
-      <workItem from="1601485643161" duration="6963000" />
+      <workItem from="1601485643161" duration="7250000" />
+      <workItem from="1601569786274" duration="7625000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -130,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601321340686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="-finished mainpage without color">
+      <created>1601497695668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601497695668</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +165,8 @@
     <MESSAGE value="content" />
     <MESSAGE value="list js" />
     <MESSAGE value="-Changes#3" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Changes#3" />
+    <MESSAGE value="-finished mainpage without color" />
+    <option name="LAST_COMMIT_MESSAGE" value="-finished mainpage without color" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601033971288">
@@ -191,10 +203,10 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601321366150">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601497714440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601321366150" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601497714440" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.813/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1601284634460" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
     <state x="156" y="-825" key="Vcs.Push.Dialog.v2/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600869321919" />
