@@ -10292,15 +10292,16 @@ blockquote:after {
 @media only screen and (min-width: 200px) {
   .figurepentagon {
     width: 80%;
-    height: 115%;
+    height: 110%;
+    padding-bottom: 40%;
     -webkit-clip-path: polygon(0 80%, 50% 100%, 100% 80%, 100% 0, 0 0);
             clip-path: polygon(0 80%, 50% 100%, 100% 80%, 100% 0, 0 0);
     background: green !important;
     background: linear-gradient(90deg, green 31%, #00a900 100%) !important; } }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .figurepentagon {
-    width: 60%;
+    width: 70%;
     height: 70%;
     -webkit-clip-path: polygon(0 80%, 50% 100%, 100% 80%, 100% 0, 0 0);
             clip-path: polygon(0 80%, 50% 100%, 100% 80%, 100% 0, 0 0);
@@ -10309,15 +10310,15 @@ blockquote:after {
 
 @media only screen and (min-width: 200px) {
   .liscie3 {
-    z-index: -1;
+    z-index: 0;
     position: absolute;
-    bottom: -19%; } }
+    bottom: -15%; } }
 
 @media only screen and (min-width: 900px) {
   .liscie3 {
-    z-index: -1;
+    z-index: 0;
     position: absolute;
-    bottom: 25%; } }
+    bottom: 26%; } }
 
 @media only screen and (min-width: 200px) {
   .card-img-top {
@@ -10353,5 +10354,13 @@ blockquote:after {
 @media only screen and (min-width: 1600px) {
   #backleafs {
     background-position: right -30em top 15em; } }
+
+@media only screen and (min-width: 1000px) {
+  .paragraph {
+    margin-right: 20% !important; } }
+
+@media only screen and (min-width: 1400px) {
+  .paragraph {
+    margin-right: 30% !important; } }
 
 /*# sourceMappingURL=main.css.map */

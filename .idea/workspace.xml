@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="list js">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="edited main page -&gt; background and width of cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webinar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webinar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601578773293</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edited main page -&gt; background and width of cards">
+      <created>1602099425697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602099425697</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +187,8 @@
     <MESSAGE value="-Changes#3" />
     <MESSAGE value="-finished mainpage without color" />
     <MESSAGE value="-fixed some bugs on mainpage - progress 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="-fixed some bugs on mainpage - progress 100%" />
+    <MESSAGE value="edited main page -&gt; background and width of cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited main page -&gt; background and width of cards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601033971288">
@@ -216,10 +225,10 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601578822246">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602099435367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601578822246" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602099435367" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.813/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1601284634460" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
     <state x="156" y="-825" key="Vcs.Push.Dialog.v2/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600869321919" />
