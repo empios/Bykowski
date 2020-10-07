@@ -602,10 +602,25 @@ body {
    max-width: 40% !important;
   }
 }
-@media only screen and (min-width: 1600px){
-  #dropdown{ padding-left: 50em !important;}
+@media only screen and (min-width: 1400px){
+  #dropdown{ padding-left: 45em !important;
+    margin-left: 15em!important;}
+}
+
+
+@media only screen and (min-width: 1900px){
+  #dropdown{ padding-left: 50em !important;
+    margin-left: 15em!important;}
 
 }
+
+@media only screen and (min-width: 2240px){
+  #dropdown{ padding-left: 50em !important;
+    margin-left: 28em!important;}
+
+}
+
+
 
 @media only screen and(max-width: 900px)
 {
@@ -1135,4 +1150,28 @@ blockquote:after {
     position: absolute;
     bottom: 25%;
   }
+}
+
+
+
+@media only screen and (min-width: 200px) {
+  .card-img-top {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+  .card-img-top {
+    width: 100%;
+    height: 11vw;
+    object-fit: cover;
+  }
+}
+
+
+#navbarColor02{
+  margin-left: 2em;
 }

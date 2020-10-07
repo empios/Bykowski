@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="-fixed some bugs on mainpage - progress 100%">
-      <change afterPath="$PROJECT_DIR$/assets/img/Group 302.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/byk2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/liscie1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/liscie2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/liscie3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/tlo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webinar.html" afterDir="false" />
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="list js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
