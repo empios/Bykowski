@@ -602,13 +602,15 @@ body {
    max-width: 40% !important;
   }
 }
-@media only screen and (min-width: 1400px){
+
+
+@media only screen and (min-width: 1800px){
   #dropdown{ padding-left: 45em !important;
-    margin-left: 15em!important;}
+    margin-left: 5em!important;}
 }
 
 
-@media only screen and (min-width: 1900px){
+@media only screen and (min-width: 1930px){
   #dropdown{ padding-left: 50em !important;
     margin-left: 15em!important;}
 
@@ -1171,7 +1173,35 @@ blockquote:after {
   }
 }
 
-
-#navbarColor02{
-  margin-left: 2em;
+.roundimg{
+  border-radius: 3%
 }
+
+@media only screen and (min-width: 400px) {
+  #backleafs{
+    background-position: right -10em top 55em;
+    background-size: 60%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #backleafs{
+    background-position: right -25em top 40em;
+    background-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #backleafs{
+    background-position: right -22em top 15em;
+  }
+}
+
+
+@media only screen and (min-width: 1600px) {
+  #backleafs{
+    background-position: right -30em top 15em;
+  }
+}
+
+
