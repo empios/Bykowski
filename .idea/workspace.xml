@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="edited main page -&gt; background and width of cards">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="fixed some bugs and footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webinar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webinar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +104,8 @@
       <workItem from="1601901568437" duration="1908000" />
       <workItem from="1601992983677" duration="16256000" />
       <workItem from="1602145290550" duration="1072000" />
+      <workItem from="1602268435790" duration="2755000" />
+      <workItem from="1602332355745" duration="950000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602099425697</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed some bugs and footer">
+      <created>1602187073411</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602187073411</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +197,8 @@
     <MESSAGE value="-finished mainpage without color" />
     <MESSAGE value="-fixed some bugs on mainpage - progress 100%" />
     <MESSAGE value="edited main page -&gt; background and width of cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited main page -&gt; background and width of cards" />
+    <MESSAGE value="fixed some bugs and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs and footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601033971288">
