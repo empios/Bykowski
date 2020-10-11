@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="latest release #2">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="changes links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webinar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webinar.html" afterDir="false" />
@@ -105,7 +105,8 @@
       <workItem from="1602268435790" duration="2755000" />
       <workItem from="1602332355745" duration="1046000" />
       <workItem from="1602412548624" duration="5098000" />
-      <workItem from="1602424127132" duration="458000" />
+      <workItem from="1602424127132" duration="2345000" />
+      <workItem from="1602442897708" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602420682836</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changes links">
+      <created>1602424610688</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602424610688</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +222,8 @@
     <MESSAGE value="fixed some bugs and footer" />
     <MESSAGE value="latest release" />
     <MESSAGE value="latest release #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest release #2" />
+    <MESSAGE value="changes links" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601033971288">
@@ -251,10 +260,10 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602420690918">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602424642907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602420690918" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602424642907" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.813/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1601284634460" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
     <state x="156" y="-825" key="Vcs.Push.Dialog.v2/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600869321919" />
