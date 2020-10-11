@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="fixed some bugs and footer">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="latest release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webinar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webinar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +102,8 @@
       <workItem from="1601992983677" duration="16256000" />
       <workItem from="1602145290550" duration="1072000" />
       <workItem from="1602268435790" duration="2755000" />
-      <workItem from="1602332355745" duration="950000" />
+      <workItem from="1602332355745" duration="1046000" />
+      <workItem from="1602412548624" duration="3350000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602187073411</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="latest release">
+      <created>1602333639184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602333639184</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +203,8 @@
     <MESSAGE value="-fixed some bugs on mainpage - progress 100%" />
     <MESSAGE value="edited main page -&gt; background and width of cards" />
     <MESSAGE value="fixed some bugs and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs and footer" />
+    <MESSAGE value="latest release" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest release" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601033971288">
@@ -235,10 +241,10 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602099435367">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602333643724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602099435367" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602333643724" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.813/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1601284634460" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
     <state x="156" y="-825" key="Vcs.Push.Dialog.v2/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600869321919" />
