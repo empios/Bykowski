@@ -380,7 +380,10 @@ NAVBAR
                     <h6 class="text-muted d-inline-block">Miejsca:</h6>
                     <p class="d-inline-block" style="color: forestgreen"><strong>8/24</strong></p>
                     <h6 class="offset-1 text-muted d-inline-block">Do końca zapisów pozostało:</h6>
-                    <p class="d-inline-block"><strong>7 dni 6h 43min</strong></p>
+                    <p class="d-inline-block" id="days2"></p>
+                    <p class="d-inline-block" id="hours2"></p>
+                    <p class="d-inline-block" id="mins2"></p>
+                    <p class="d-inline-block" id="secs2"></p>
                 </div>
             </div>
         </div>
@@ -495,6 +498,10 @@ window.addEventListener ? addEventListener('message', fmFCFeafvv1xc84, !1) : att
         document.getElementById("hours").innerHTML = hours + "h "
         document.getElementById("mins").innerHTML = minutes + "m "
         document.getElementById("secs").innerHTML = seconds + "s "
+        document.getElementById("days2").innerHTML = days + "d "
+        document.getElementById("hours2").innerHTML = hours + "h "
+        document.getElementById("mins2").innerHTML = minutes + "m "
+        document.getElementById("secs2").innerHTML = seconds + "s "
         if (timeleft < 0) {
             clearInterval(myfunc);
             document.getElementById("days").innerHTML = ""
@@ -502,6 +509,10 @@ window.addEventListener ? addEventListener('message', fmFCFeafvv1xc84, !1) : att
             document.getElementById("mins").innerHTML = ""
             document.getElementById("secs").innerHTML = ""
             document.getElementById("end").innerHTML = "Koniec Zapisów!!";
+            document.getElementById("days2").innerHTML = ""
+            document.getElementById("hours2").innerHTML = ""
+            document.getElementById("mins2").innerHTML = ""
+            document.getElementById("secs2").innerHTML = ""
         }
     }, 1000);
 

@@ -929,7 +929,7 @@ a:hover {
   #flowers{
     position: absolute;
     z-index: -1;
-    bottom: -19%;
+    bottom: 10%;
     left: 1%;
     width: 40% !important;
   }
@@ -951,8 +951,9 @@ a:hover {
   #flowers{
     position: absolute;
     z-index: -1;
-    bottom: -15%;
-    width: 50% !important;
+    bottom: -70%;
+    width: 80% !important;
+    margin-left: -3em;
   }
 }
 .accordion-menu > a {
@@ -1239,3 +1240,31 @@ div > #checkbox1-checkbox{
 .hover2 {
   color: #6E7D84 !important;;
 }
+.roundli{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid #DCE3E6;
+  max-width: 100%
+}
+.greenonhover:hover{
+  border: 1px solid #00A900;
+}
+[data-toggle="collapse"] .fa:before {
+  content: "\f063";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f061";
+}
+
+[data-toggle="collapse"] .card-header:before{
+  background-color: white !important;
+}
+
+[data-toggle="collapse"].collapsed .card-header:before{
+  background-color: #f1f5f8 !important;
+}
+
+
+
+
