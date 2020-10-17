@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="fixed some bugs">
+    <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="fixed some webinar and ended oferta">
+      <change afterPath="$PROJECT_DIR$/assets/img/flowers33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/flowers34.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Oferta.html" beforeDir="false" afterPath="$PROJECT_DIR$/Oferta.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webinar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webinar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,16 +69,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KODY\JAVASCRIPT\Bykowski" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\img" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\js\vendor" />
       <recent name="C:\KODY\JAVASCRIPT\Bykowski\assets\js" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\KODY\JAVASCRIPT\Bykowski" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,7 +114,8 @@
       <workItem from="1602603777022" duration="122000" />
       <workItem from="1602698730240" duration="2128000" />
       <workItem from="1602780729626" duration="2126000" />
-      <workItem from="1602868746432" duration="8140000" />
+      <workItem from="1602868746432" duration="8421000" />
+      <workItem from="1602918723645" duration="7775000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1600518681116</created>
@@ -213,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602444810965</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed some webinar and ended oferta">
+      <created>1602878812520</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602878812520</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +255,8 @@
     <MESSAGE value="changes links" />
     <MESSAGE value="changes links #2" />
     <MESSAGE value="fixed some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs" />
+    <MESSAGE value="fixed some webinar and ended oferta" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some webinar and ended oferta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602701451388">
@@ -287,10 +297,10 @@
     </state>
     <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600370519009" />
     <state width="1377" height="194" key="GridCell.Tab.0.right/0.23.1440.807/-580.-1057.2560.1057@0.23.1440.807" timestamp="1600415826626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602444816080">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602878824021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602444816080" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602878824021" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.813/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1601284634460" />
     <state x="156" y="-804" key="Vcs.Push.Dialog.v2/0.23.1440.815/-580.-1057.2560.1057@-580.-1057.2560.1057" timestamp="1600782696854" />
     <state x="156" y="-825" key="Vcs.Push.Dialog.v2/0.23.1440.877/-580.-1057.2560.968@-580.-1057.2560.968" timestamp="1600869321919" />

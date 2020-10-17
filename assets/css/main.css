@@ -10403,4 +10403,64 @@ div > #checkbox1-checkbox {
 [data-toggle="collapse"].collapsed .card-header:before {
   background-color: #f1f5f8 !important; }
 
+@media only screen and (min-width: 200px) {
+  .flowers34 {
+    z-index: -1;
+    position: absolute;
+    right: -10em;
+    top: -17em; } }
+
+@media only screen and (min-width: 500px) {
+  .flowers34 {
+    z-index: -1;
+    position: absolute;
+    right: -17em;
+    top: -17em; } }
+
+@media only screen and (min-width: 1000px) {
+  .flowers34 {
+    z-index: -1;
+    position: absolute;
+    right: -17em;
+    top: -17em; } }
+
+@media only screen and (min-width: 1600px) {
+  .flowers34 {
+    z-index: -1;
+    position: absolute;
+    right: -15em;
+    top: -15em; } }
+
+@media only screen and (min-width: 200px) {
+  .flowers33 {
+    z-index: -1;
+    position: absolute;
+    left: -8em;
+    bottom: -6em; } }
+
+@media only screen and (min-width: 500px) {
+  .flowers33 {
+    z-index: -1;
+    position: absolute;
+    left: -11em;
+    bottom: -8em; } }
+
+@media only screen and (min-width: 1000px) {
+  .flowers33 {
+    z-index: -1;
+    position: absolute;
+    left: -13em;
+    bottom: -10em; } }
+
+@media only screen and (min-width: 1600px) {
+  .flowers33 {
+    z-index: -1;
+    position: absolute;
+    left: -13em;
+    bottom: -10em; } }
+
+@media only screen and (min-width: 1600px) {
+  .buttonlefting {
+    left: 20%; } }
+
 /*# sourceMappingURL=main.css.map */
