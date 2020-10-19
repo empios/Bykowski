@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa97fa1-6e72-45f4-a883-15bbd01c081d" name="Default Changelist" comment="fixed some oferta">
-      <change afterPath="$PROJECT_DIR$/assets/img/buttonflower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/partnerzy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kurs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kurs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kurs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kurs-spring-boot.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-spring-boot.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
