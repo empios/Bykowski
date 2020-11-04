@@ -976,7 +976,7 @@ a:hover {
 }
 
 .topbutton {
-  bottom: 4em !important;
+  bottom: 5em !important;
 }
 
 blockquote {
@@ -1401,7 +1401,7 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 200px) {
   .flowers344{
     position: absolute;
-    right: -8em;
+    right: -5em;
     top: -5em;
     width: 70%;
 
@@ -1411,7 +1411,7 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 500px) {
   .flowers344{
     position: absolute;
-    right: -8em;
+    right: -5em;
     top: -5em;
     width: 50%;
 
@@ -1422,7 +1422,7 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 700px) {
   .flowers344{
     position: absolute;
-    right: -7em;
+    right: -4em;
     top: -5em;
     width: 35%;
 
@@ -1432,7 +1432,7 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 1000px) {
   .flowers344{
     position: absolute;
-    right: -8em;
+    right: -5em;
     top: -5em;
     width: 30%;
 
@@ -1443,7 +1443,7 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 1290px) {
   .flowers344{
     position: absolute;
-    right: -8em;
+    right: -5em;
     top: -5em;
     width: 15%;
 
@@ -1518,9 +1518,11 @@ div > #checkbox1-checkbox{
   }
 }
 
-
-
-
-
+.marginCenter{
+  @media only screen and (min-width: 1300px) {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
 
 
