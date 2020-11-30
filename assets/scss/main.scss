@@ -1154,14 +1154,14 @@ blockquote:after {
 
 @media only screen and (min-width: 1100px) {
   .liscie3{
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     bottom: 26%;
   }
 }
 @media only screen and (min-width: 900px) {
   .liscie3{
-    z-index: 0;
+    z-index: -1;
     position: absolute;
   }
 }
