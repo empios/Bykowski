@@ -661,7 +661,7 @@ body {
 @media only screen and(min-width: 1400px)
 {
   #footer {
-    max-height: 50%;
+    max-height: 10%;
   }
 }
 #cardId{
@@ -689,24 +689,17 @@ body {
   }
 }
 
-@media only screen and(max-width: 900px)
-{
-  .logoIt {
-    height: 1em;
-  }
-}
-
 @media only screen and(max-width: 1400px)
 {
   .logoIt {
-    height: 3em;
+    height: 1.5em;
   }
 }
 
 @media only screen and(min-width: 1400px)
 {
   .logoIt {
-    height: 2em;
+    height: 1.5em;
   }
 }
 
@@ -1525,4 +1518,42 @@ div > #checkbox1-checkbox{
   }
 }
 
+.card-flip {
 
+  background: none;
+  border: none;
+  padding: 0;
+
+  .card {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .card:first-of-type {
+    tranform: rotateY(0deg);
+  }
+
+  .card:last-of-type {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    display: flex;
+  }
+
+  &:hover {
+    .card:first-of-type  {
+      transform: rotateY(-180deg);
+    }
+    .card:last-of-type {
+      transform: rotateY(0deg);
+    }
+  }
+}
+
+.pointer{
+  cursor: pointer;
+}
