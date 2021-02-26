@@ -31,46 +31,46 @@
 NAVBAR
 --------------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light">
-<div class="container-fluid">
-	<a href="./index.html" ><img class="navbar-brand" id="logo" src="./assets/img/Logo.png" alt=""></a>
-	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="navbar-collapse collapse" id="navbarColor02">
-		<ul class="navbar-nav m-auto d-flex align-items-center" id="dropdown">
-			<li class="nav-item">
-			<a class="nav-link" href="#kursy">Kursy</a>
-			</li>
-			<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pakiety </a>
-			<div class="dropdown-menu border-top" id="customBorder" aria-labelledby="navbarDropdown">
-				<a class="dropdown-item" href="./webinar.html">Webinar</a>
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="#">Hibernate</a>
-			</div>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#wydarzenia">Nadchodzące wydarzenia</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="./Oferta.html#faq">FAQ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#omnie">O mnie</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="./Kurs.html#opinie">Opinie</a>
-			</li>
-		</ul>
-		<ul class="navbar-nav ml-auto d-flex align-items-center">
-			<li class="nav-item">
+	<div class="container-fluid">
+		<a href="./index.html" ><img class="navbar-brand" id="logo" src="./assets/img/Logo.png" alt=""></a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse text-black-50" id="navbarColor02">
+			<ul class="navbar-nav m-auto d-flex align-items-center" id="dropdown">
+				<li class="nav-item">
+					<a class="nav-link" href="#kursy"><strong>Kursy</strong></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Pakiety</strong> </a>
+					<div class="dropdown-menu border-top" id="customBorder" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="./webinar.html"><strong style="font-weight: bold">Webinar</strong></a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#"><strong style="font-weight: bold">Hibernate</strong></a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#wydarzenia"><strong>Nadchodzące wydarzenia</strong></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./Oferta.html#faq"><strong>FAQ</strong></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#omnie"><strong>O mnie</strong></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./Kurs.html#opinie"><strong>Opinie</strong></a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto d-flex align-items-center">
+				<li class="nav-item">
 			<span class="nav-link" href="#">
-				<a class="btn btn-outline-dark" href="https://www.akademiaspring.pl/wp-login.php" target="_blank"> Zaloguj się </a>
+				<a class="btn btn-outline-dark btn-dark" id="login" href="https://www.akademiaspring.pl/wp-login.php" target="_blank"> <strong>Zaloguj się</strong> </a>
 			</span>
-			</li>
-		</ul>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
 </nav>
 <!-- End Navbar -->
     
@@ -86,9 +86,11 @@ HEADER
 	<div class="col-lg-1 m-auto text-center pt-sm-5 pt-md-5"></div>
 	<div class="col-lg-4 col-6 m-auto text-center pt-sm-5 pt-md-5">
 			<img class="ml-lg-1 pb-3" width="20%"  src="./assets/img/Group%20146.png">
-			<h1>Akademia <strong>Spring</strong></h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-			<button class="btn btn-round text-white lineargradient">Zapisz się</button>
+			<h1>Akademia <strong style="font-size: 2em">Spring</strong></h1>
+			<p class="text-left mlOnBigScreens text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		<div class="row">
+			<button class="btn btn-round text-white w-50 ml-2 wOnBigScreen mlOnBigScreens mt-3 lineargradient"><strong>Zapisz się</strong></button>
+		</div>
 	</div>
 	<div class="col-12 col-lg-7 pt-5 pr-5">
 		<div class="row m-auto">
@@ -489,7 +491,7 @@ MAIN
 			</div>
 		</div>
 		<div class="col-12 col-lg-6 pt-5 pt-lg-0 text-center text-lg-left">
-			<h1>Nadchodzące wydarzenia</h1>
+			<h3><strong>Nadchodzące wydarzenia</strong></h3>
 			<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 		</div>
 	</div>
@@ -509,7 +511,7 @@ MAIN
 						</div>
 					</div>
 					<div class="col-lg-6 col-12 pt-2 pb-2 my-aut text-lg-left text-center">
-						<a href="Kurs.html" style="color: #1b1e21"><h2 class="event">Kurs Spring Boot 2</h2></a>
+						<a href="Kurs.html" style="color: #1b1e21"><h4 class="event"><strong>Kurs Spring Boot 2</strong></h4></a>
 						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
 					</div>
 				</li>
@@ -525,7 +527,7 @@ MAIN
 						</div>
 					</div>
 					<div class="col-lg-6 col-12 pt-2 pb-2 my-aut text-lg-left text-center">
-						<a href="Kurs.html" style="color: #1b1e21"><h2 class="event">Kurs Spring Boot 2</h2></a>
+						<a href="Kurs.html" style="color: #1b1e21"><h4 class="event"><strong>Kurs Spring Boot 2</strong></h4></a>
 						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
 					</div>
 				</li>
@@ -541,7 +543,7 @@ MAIN
 						</div>
 					</div>
 					<div class="col-lg-6 col-12 pt-2 pb-2 my-aut text-lg-left text-center">
-						<a href="Kurs.html" style="color: #1b1e21"><h2 class="event">Kurs Spring Boot 2</h2></a>
+						<a href="Kurs.html" style="color: #1b1e21"><h4 class="event"><strong>Kurs Spring Boot 2</strong></h4></a>
 						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
 					</div>
 				</li>
@@ -557,7 +559,7 @@ MAIN
 						</div>
 					</div>
 					<div class="col-lg-6 col-12 pt-2 pb-2 my-aut text-lg-left text-center">
-						<a href="Kurs.html" style="color: #1b1e21"><h2 class="event">Kurs Spring Boot 2</h2></a>
+						<a href="Kurs.html" style="color: #1b1e21"><h4 class="event"><strong>Kurs Spring Boot 2</strong></h4></a>
 						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
 					</div>
 				</li>
@@ -573,7 +575,7 @@ MAIN
 						</div>
 					</div>
 					<div class="col-lg-6 col-12 pt-2 pb-2 my-aut text-lg-left text-center">
-						<a href="Kurs.html" style="color: #1b1e21"><h2 class="event">Kurs Spring Boot 2</h2></a>
+						<a href="Kurs.html" style="color: #1b1e21"><h4 class="event"><strong>Kurs Spring Boot 2</strong></h4></a>
 						<p class="text-muted event">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lorem sed nisl hendrerit, vel tristique dolor mollis. Pellentesque feugiat rutrum quam vitae feugiat. Interdum et</p>
 					</div>
 				</li>
@@ -600,13 +602,13 @@ MAIN
 		</div>
 		<div class="col-lg-5 col-sm-12 text-lg-left text-md-center text-sm-center text-center my-auto mx-auto">
 			<div class="row pl-3">
-				<h2 class="pt-sm-4 pt-4 pt-lg-0 m-sm-auto m-auto m-md-auto m-lg-0">Poznaj mnie</h2>
-				<p class="pt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+				<h3 class="pt-sm-4 pt-4 pt-lg-0 m-sm-auto m-auto m-md-auto m-lg-0"><strong>Poznaj mnie</strong></h3>
+				<p class="pt-3 text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 					<br>
 					<br>
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit</p>
 			</div>
-			<div class="row">
+			<div class="row mt-5">
 				<div class="col-12">
 				<h6><strong>Dowiedz się więcej</strong></h6>
 				</div>
