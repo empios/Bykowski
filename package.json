@@ -15,5 +15,6 @@
     "gulp-sourcemaps": "^3.0.0",
     "lodash": ">=4.17.20",
     "sass": "^1.32.8"
-  }
+  },
+  "dependencies": {}
 }
