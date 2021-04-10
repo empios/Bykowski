@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 <meta charset="utf-8"/>
 <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.ico">
@@ -232,34 +232,36 @@ MAIN
 		</div>
 	</div>
 
-<div id="div1" class="container-fluid pr-5 pl-5 pt-5 pb-5 rounded" style="background-color: #DCE3E6; width: 90%">
-		<div class="container-fluid">
+<div id="div1" class="container-fluid pr-5 pl-5 pt-5 pb-5" style="background-color: #EEF2F5; width: 90%; border: 2px solid #DCE3E6; border-radius: 1.6em;">
+		<div class="container-fluid" style="max-width: 85%">
 			<div class="row">
-			<div class="col-12 col-lg-7 m-auto" id="dlakogo">
-				<h4 class="pb-3"><strong>Co otrzymam przystępując do kursu?</strong></h4>
-				<ul style="list-style-image: url('./assets/img/icon_flower.png');">
-					<li class="pt-2">Obszerny 12-nasto, 6-cio lub 18-nasto tygodniowy kurs video, który przygotuje Cię do tworzenia zaawansowanych aplikacji internetowych.</li>
-					<li class="pt-2">Zbiór licznych przykładów i prac domowych.</li>
-					<li class="pt-2">Atrakcyjne quizy i testy wiedzy.</li>
-					<li class="pt-2">Dołączysz do grupy wspaniałych osób dzielących się wiedzą, przez którą zyskasz siły do działania, nie poczujesz się samotnie i nawiążesz kontakty.</li>
-					<li class="pt-2">Spędzisz mało czasu zdobywając dużo wiedzy.</li>
-					<li class="pt-2">Licencję na oprogramowanie IntelliJ IDEA.</li>
-					<li class="pt-2">Dostęp do materiałów i kodów źródłowych.</li>
-					<li class="pt-2">Realny wpływ na program kursu. Ten program to nie koniec, nowe materiały tworzę regularnie!</li>
-					<li class="pt-2">Dożywotnią aktualizację programu i wszystkich materiałów.</li>
-				</ul>
-			</div>
-			<div class="col-12 text-center col-lg-5">
-				<img class="img-fluid rounded" src="./assets/img/image@2x.png">
+				<div class="col-12 col-lg-8" id="dlakogo">
+					<div class="mt-3">
+						<h4 class="pb-3 font-weight-bold" style="font-family: 'Rajdhani', sans-serif">Co otrzymam przystępując do kursu?</h4>
+						<ul class="roboto-font mt-4" style="list-style-image: url('./assets/img/icon_flower.png');">
+							<li class="">Obszerny 12-nasto, 6-cio lub 18-nasto tygodniowy kurs video, który przygotuje Cię do tworzenia zaawansowanych aplikacji internetowych.</li>
+							<li class="mt-3">Zbiór licznych przykładów i prac domowych.</li>
+							<li class="mt-3">Atrakcyjne quizy i testy wiedzy.</li>
+							<li class="mt-3">Dołączysz do grupy wspaniałych osób dzielących się wiedzą, przez którą zyskasz siły do działania, nie poczujesz się samotnie i nawiążesz kontakty.</li>
+							<li class="mt-3">Spędzisz mało czasu zdobywając dużo wiedzy.</li>
+							<li class="mt-3">Licencję na oprogramowanie IntelliJ IDEA.</li>
+							<li class="mt-3">Dostęp do materiałów i kodów źródłowych.</li>
+							<li class="mt-3">Realny wpływ na program kursu. Ten program to nie koniec, nowe materiały tworzę regularnie!</li>
+							<li class="mt-3">Dożywotnią aktualizację programu i wszystkich materiałów.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 text-center col-lg-4 m-auto">
+					<img class="img-fluid" src="./assets/img/CertyfikatSpring.png">
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container-fluid width-cards mt-5">
+	<div class="container-fluid width-cards mt-3">
 	<div class="row pt-5">
 		<div class="col-12">
 			<img class="floweroferta" src="./assets/img/flower@2x.png">
-			<h5><strong>Program szkolenia</strong></h5>
+			<h5 class="font-weight-bold">Program szkolenia</h5>
 		</div>
 	</div>
 	<div class="row">
@@ -268,42 +270,48 @@ MAIN
 		</div>
 	</div>
 
-	<div class="row pt-5" style="max-width: 99%">
+	<div class="row mt-2" style="max-width: 99%">
 		<div class="col-12 col-lg-4" id="program">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
 				</div>
 			</div>
 
 		</div>
 
 		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -311,11 +319,19 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
 
@@ -324,14 +340,13 @@ MAIN
 		</div>
 		<div class="col-12 col-lg-4">
 
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -339,25 +354,33 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
-		</div>
+			</div>
+
 	</div>
 	<div class="row pt-5" style="max-width: 99%">
 		<div class="col-12 col-lg-4" id="program">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -365,25 +388,32 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
 
 		</div>
 
 		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -391,11 +421,19 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
 
@@ -404,14 +442,13 @@ MAIN
 		</div>
 		<div class="col-12 col-lg-4">
 
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -419,25 +456,32 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
-		</div>
+			</div>
 	</div>
 	<div class="row pt-5" style="max-width: 99%">
 		<div class="col-12 col-lg-4" id="program">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -445,25 +489,32 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
 
 		</div>
 
 		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -471,11 +522,19 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
 
@@ -484,14 +543,13 @@ MAIN
 		</div>
 		<div class="col-12 col-lg-4">
 
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
+			<div class="card shadow" style="border-radius: 15px;">
+				<div class="card-body" style="padding-bottom: 0!important;">
 					<div class="text-right">
 						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
 					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
+					<h5 class="card-title font-weight-bold">Plan gry</h5>
+					<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
 						<li>Powitanie</li>
 						<li>Model-View-Controller</li>
 						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
@@ -499,11 +557,19 @@ MAIN
 						<li>Vaadin II </li>
 						<li>Thymeleaf</li>
 						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
+						<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+							<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+						</svg>
+						</li>
+						<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+							<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+						</svg>
+						</li>
 					</ul>
-					</p>
 				</div>
 			</div>
 		</div>
@@ -518,18 +584,21 @@ MAIN
 	<div class="row mt-5 mb-5">
 		<div class="col-12"></div>
 	</div>
+
+
 	<div id="opinie" class="row pt-5 marginCenter">
 		<div class="col-12 col-lg-4 text-center text-lg-right">
 			<img class="img-fluid rounded" src="./assets/img/spotkanie.png">
 		</div>
-		<div class="col-12 col-lg-8 m-auto pt-3 text-center text-lg-left pt-lg-0">
+		<div class="col-12 col-lg-6 m-auto pt-3 text-center text-lg-left pt-lg-0">
 			<h4><strong>Poznaj opinie uczestników</strong></h4>
 			<p class="text-muted2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
 		</div>
+		<div class="col-2"></div>
 	</div>
 	<div class="container-fluid width-cards">
-	<div class="row pt-5 marginCenter">
+	<div class="row pt-5 roboto-font">
 		<div class="col-12 col-lg-4 mt-5">
 			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
 		</div>
@@ -540,7 +609,7 @@ MAIN
 			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
 		</div>
 	</div>
-	<div class="row pt-5 marginCenter">
+	<div class="row pt-5 roboto-font">
 		<div class="col-12 col-lg-4 mt-5">
 			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
 		</div>
@@ -554,365 +623,455 @@ MAIN
 	</div>
 </div>
 
-<div id="div2" class="container-fluid pr-5 pl-5 pt-5 pb-5 rounded " style="background-color: #DCE3E6; width: 95%; display: none">
-	<div class="container-fluid">
+<div id="div2" class="container-fluid pr-5 pl-5 pt-5 pb-5" style="background-color: #EEF2F5; width: 90%; border: 2px solid #DCE3E6; border-radius: 1.6em; display:none;">
+	<div class="container-fluid" style="max-width: 85%">
 		<div class="row">
-			<div class="col-12 col-lg-7 m-auto" id="dlakogo">
-				<h4 class="pb-3"><strong>Co otrzymam przystępując do kursu? Część 2</strong></h4>
-				<ul style="list-style-image: url('./assets/img/icon_flower.png');">
-					<li class="pt-2">Obszerny 12-nasto, 6-cio lub 18-nasto tygodniowy kurs video, który przygotuje Cię do tworzenia zaawansowanych aplikacji internetowych.</li>
-					<li class="pt-2">Zbiór licznych przykładów i prac domowych.</li>
-					<li class="pt-2">Atrakcyjne quizy i testy wiedzy.</li>
-					<li class="pt-2">Dołączysz do grupy wspaniałych osób dzielących się wiedzą, przez którą zyskasz siły do działania, nie poczujesz się samotnie i nawiążesz kontakty.</li>
-					<li class="pt-2">Spędzisz mało czasu zdobywając dużo wiedzy.</li>
-					<li class="pt-2">Licencję na oprogramowanie IntelliJ IDEA.</li>
-					<li class="pt-2">Dostęp do materiałów i kodów źródłowych.</li>
-					<li class="pt-2">Realny wpływ na program kursu. Ten program to nie koniec, nowe materiały tworzę regularnie!</li>
-					<li class="pt-2">Dożywotnią aktualizację programu i wszystkich materiałów.</li>
-				</ul>
+			<div class="col-12 col-lg-8" id="dlakogo">
+				<div class="mt-3">
+					<h4 class="pb-3 font-weight-bold" style="font-family: 'Rajdhani', sans-serif">Co otrzymam przystępując do kursu? Część 2</h4>
+					<ul class="roboto-font mt-4" style="list-style-image: url('./assets/img/icon_flower.png');">
+						<li class="">Obszerny 12-nasto, 6-cio lub 18-nasto tygodniowy kurs video, który przygotuje Cię do tworzenia zaawansowanych aplikacji internetowych.</li>
+						<li class="mt-3">Zbiór licznych przykładów i prac domowych.</li>
+						<li class="mt-3">Atrakcyjne quizy i testy wiedzy.</li>
+						<li class="mt-3">Dołączysz do grupy wspaniałych osób dzielących się wiedzą, przez którą zyskasz siły do działania, nie poczujesz się samotnie i nawiążesz kontakty.</li>
+						<li class="mt-3">Spędzisz mało czasu zdobywając dużo wiedzy.</li>
+						<li class="mt-3">Licencję na oprogramowanie IntelliJ IDEA.</li>
+						<li class="mt-3">Dostęp do materiałów i kodów źródłowych.</li>
+						<li class="mt-3">Realny wpływ na program kursu. Ten program to nie koniec, nowe materiały tworzę regularnie!</li>
+						<li class="mt-3">Dożywotnią aktualizację programu i wszystkich materiałów.</li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-12 text-center col-lg-5">
-				<img class="img-fluid rounded" src="./assets/img/image@2x.png">
+			<div class="col-12 text-center col-lg-4 m-auto">
+				<img class="img-fluid" src="./assets/img/CertyfikatSpring.png">
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid width-cards mt-5">
-	<div class="row pt-5">
-		<div class="col-12">
-			<img class="floweroferta" src="./assets/img/flower@2x.png">
-			<h5><strong>Program szkolenia</strong></h5>
+	<div class="container-fluid width-cards mt-3">
+		<div class="row pt-5">
+			<div class="col-12">
+				<img class="floweroferta" src="./assets/img/flower@2x.png">
+				<h5 class="font-weight-bold">Program szkolenia</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<img class="img-fluid flowers344" src="./assets/img/flowers34.png" style="z-index: 0!important;">
+			</div>
+		</div>
+
+		<div class="row mt-2" style="max-width: 99%">
+			<div class="col-12 col-lg-4" id="program">
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-12 col-lg-4">
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+			</div>
+			<div class="col-12 col-lg-4">
+
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row pt-5" style="max-width: 99%">
+			<div class="col-12 col-lg-4" id="program">
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-12 col-lg-4">
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+			</div>
+			<div class="col-12 col-lg-4">
+
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-5" style="max-width: 99%">
+			<div class="col-12 col-lg-4" id="program">
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-12 col-lg-4">
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+			</div>
+			<div class="col-12 col-lg-4">
+
+				<div class="card shadow" style="border-radius: 15px;">
+					<div class="card-body" style="padding-bottom: 0!important;">
+						<div class="text-right">
+							<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
+						</div>
+						<h5 class="card-title font-weight-bold">Plan gry</h5>
+						<ul class="roboto-font ul-without-padding" style="list-style: decimal; color:#818E94; height: 100%">
+							<li>Powitanie</li>
+							<li>Model-View-Controller</li>
+							<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
+							<li>Vaadin I</li>
+							<li>Vaadin II </li>
+							<li>Thymeleaf</li>
+							<li>React</li>
+							<li>Quiz <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_test_passed_2" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM9.222,12.667H6.111V11.111H9.222Zm0-3.889H6.111V7.222H9.222ZM10,4.111a.778.778,0,1,1,.778-.778A.778.778,0,0,1,10,4.111Zm2.655,8.556H10.778V11.111h1.234l1.556-1.556,1.1,1.1Zm0-3.889H10.778V7.222h1.234l1.556-1.556,1.1,1.1ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Praca domowa <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.222" viewBox="0 0 14 13.222">
+								<path id="icons8_house" d="M6.554,3a1.467,1.467,0,0,0-1.2.615L2.539,7.561a.368.368,0,0,0,.3.581h.02v7.346a.735.735,0,0,0,.734.735H15.347a.735.735,0,0,0,.735-.734V8.142h.02a.368.368,0,0,0,.3-.581L13.582,3.615A1.469,1.469,0,0,0,12.387,3ZM6.9,4.542,9.031,7.526a1.467,1.467,0,0,0,1.2.615h4.386v6.611H8.736V11.08A.735.735,0,0,0,8,10.346H6.532a.735.735,0,0,0-.735.735v3.673H4.329V8.142Zm4.04,5.8a.735.735,0,0,0-.735.735v1.469a.735.735,0,0,0,.735.735h1.469a.735.735,0,0,0,.735-.735V11.08a.735.735,0,0,0-.735-.735Z" transform="translate(-2.47 -3)" fill="#818e94"/>
+							</svg>
+							</li>
+							<li>Notatki <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.556" viewBox="0 0 14 15.556">
+								<path id="icons8_task_5" d="M15.444,2.556H12.19a2.32,2.32,0,0,0-4.38,0H4.556A1.555,1.555,0,0,0,3,4.111V15a1.555,1.555,0,0,0,1.556,1.556H15.444A1.555,1.555,0,0,0,17,15V4.111A1.555,1.555,0,0,0,15.444,2.556ZM10,2.556a.778.778,0,1,1-.778.778A.778.778,0,0,1,10,2.556ZM7.667,13.444H6.111V11.889l4.78-4.78,1.556,1.556Zm6.109-6.109L13,8.114,11.442,6.558l.778-.778a.389.389,0,0,1,.55,0l1.006,1.006A.389.389,0,0,1,13.775,7.336ZM15.444,15H4.556V4.111H15.444Z" transform="translate(-3 -1)" fill="#818e94"/>
+							</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 mb-5">
+				<img class="img-fluid flowers333" src="./assets/img/flowers33.png" style="z-index: 0!important;">
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-12">
-			<img class="img-fluid flowers344" src="./assets/img/flowers34.png" style="z-index: 0!important;">
-		</div>
-	</div>
-
-	<div class="row pt-5" style="max-width: 99%">
-		<div class="col-12 col-lg-4" >
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-
-
-
-		</div>
-		<div class="col-12 col-lg-4">
-
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row pt-5" style="max-width: 99%">
-		<div class="col-12 col-lg-4" >
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-
-
-
-		</div>
-		<div class="col-12 col-lg-4">
-
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row pt-5" style="max-width: 99%">
-		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="col-12 col-lg-4">
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-
-
-
-		</div>
-		<div class="col-12 col-lg-4">
-
-			<div class="card">
-				<div class="card-body h-100 rounded shadow-sm">
-					<div class="text-right">
-						<img class="img-fluid" src="./assets/img/leaf.png"> <strong style="color: forestgreen">1 Tydzień</strong>
-					</div>
-					<h5 class="card-title">Plan gry</h5>
-					<p class="card-text">
-					<ul style="list-style: decimal">
-						<li>Powitanie</li>
-						<li>Model-View-Controller</li>
-						<li>Zanim zdecydujesz się na konkretne rozwiązania do tworzenia widoków</li>
-						<li>Vaadin I</li>
-						<li>Vaadin II </li>
-						<li>Thymeleaf</li>
-						<li>React</li>
-						<li>Quiz <i class="far fa-clipboard" style="color: #818E94"></i></li>
-						<li>Praca domowa <i class="fas fa-home"  style="color: #818E94"></i></li>
-						<li>Notatki <i class="fas fa-pen"  style="color: #818E94"></i></li>
-					</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-12 mb-5">
-			<img class="img-fluid flowers333" src="./assets/img/flowers33.png" style="z-index: 0!important;">
-		</div>
-	</div>
-		</div>
 	<div class="row mt-5 mb-5">
 		<div class="col-12"></div>
 	</div>
+
+
 	<div id="opinie" class="row pt-5 marginCenter">
 		<div class="col-12 col-lg-4 text-center text-lg-right">
 			<img class="img-fluid rounded" src="./assets/img/spotkanie.png">
 		</div>
-		<div class="col-12 col-lg-8 m-auto pt-3 text-center text-lg-left pt-lg-0">
+		<div class="col-12 col-lg-6 m-auto pt-3 text-center text-lg-left pt-lg-0">
 			<h4><strong>Poznaj opinie uczestników</strong></h4>
 			<p class="text-muted2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
 		</div>
+		<div class="col-2"></div>
 	</div>
 	<div class="container-fluid width-cards">
-	<div class="row pt-5 marginCenter">
-		<div class="col-12 col-lg-4 mt-5">
-			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		<div class="row pt-5 roboto-font">
+			<div class="col-12 col-lg-4 mt-5">
+				<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+			</div>
+			<div class="col-12 col-lg-4 mt-5">
+				<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+			</div>
+			<div class="col-12 col-lg-4 mt-5">
+				<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+			</div>
 		</div>
-		<div class="col-12 col-lg-4 mt-5">
-			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
-		</div>
-		<div class="col-12 col-lg-4 mt-5">
-			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+		<div class="row pt-5 roboto-font">
+			<div class="col-12 col-lg-4 mt-5">
+				<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+			</div>
+			<div class="col-12 col-lg-4 mt-5">
+				<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+			</div>
+			<div class="col-12 col-lg-4 mt-5">
+				<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
+			</div>
 		</div>
 	</div>
-	<div class="row pt-5 marginCenter">
-		<div class="col-12 col-lg-4 mt-5">
-			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
-		</div>
-		<div class="col-12 col-lg-4 mt-5">
-			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
-		</div>
-		<div class="col-12 col-lg-4 mt-5">
-			<blockquote class="blockquote text-center">Kontakt, przygotowanie i umiejętność przekazywania wiedzy</blockquote>
-		</div>
-	</div>
-	</div>
-</div>
 </div>
 
-<div style="background-image: url('./assets/img/tlo1.png'); background-repeat: no-repeat; background-size: contain">
+
+<div style="background-image: url('./assets/img/bg-bottom@2x.png'); background-repeat: no-repeat; background-size: 35%; background-position: -15% 5%">
 	<div style="background-image: url('./assets/img/tlo2.png'); background-repeat: no-repeat; background-size: 15%; background-position: right center">
-		<div class="container pr-5 pl-5 pt-5 pb-5">
+		<div class="container pt-5 pb-5 mt-5">
 			<div class="row">
 				<div class="col-12 col-lg-7">
-					<h3><i style="color: forestgreen" class="fas fa-coins"></i> Oferta</h3>
-					<p class="pt-4 text-muted">Szkolenie przybliżyć Ci koncept projektowania architektury mikrousługowej. Od podstaw poznasz zasady i dobre praktyki
+					<h3 class="font-weight-bold"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="42.078" height="38.571" viewBox="0 0 42.078 38.571">
+						<path id="icons8_sales_performance" d="M34.682,5a18.593,18.593,0,0,0-7.561,1.425,8.063,8.063,0,0,0-2.63,1.808,4.315,4.315,0,0,0-1.205,2.9v7.725c-.11-.055-.212-.11-.329-.164A18.594,18.594,0,0,0,15.4,17.273,18.594,18.594,0,0,0,7.835,18.7a8.063,8.063,0,0,0-2.63,1.808A4.314,4.314,0,0,0,4,23.409V37.435a4.308,4.308,0,0,0,1.26,2.9,8.138,8.138,0,0,0,2.63,1.808A18.575,18.575,0,0,0,15.4,43.571,18.576,18.576,0,0,0,22.9,42.147a8.14,8.14,0,0,0,2.63-1.808,4.308,4.308,0,0,0,1.26-2.9v-.767c.137.069.24.157.384.219a18.574,18.574,0,0,0,7.506,1.425,18.576,18.576,0,0,0,7.506-1.425,8.14,8.14,0,0,0,2.63-1.808,4.308,4.308,0,0,0,1.26-2.9V11.136a4.315,4.315,0,0,0-1.205-2.9,8.063,8.063,0,0,0-2.63-1.808A18.593,18.593,0,0,0,34.682,5Zm0,3.506a15.319,15.319,0,0,1,6.082,1.151,5.139,5.139,0,0,1,1.534.986c.274.294.274.411.274.493s0,.2-.274.493a5.139,5.139,0,0,1-1.534.986,15.319,15.319,0,0,1-6.082,1.151A15.317,15.317,0,0,1,28.6,12.616a5.134,5.134,0,0,1-1.534-.986c-.274-.294-.274-.411-.274-.493s0-.2.274-.493A5.135,5.135,0,0,1,28.6,9.657,15.317,15.317,0,0,1,34.682,8.506Zm-7.89,7.177c.11.055.212.11.329.164a18.591,18.591,0,0,0,7.561,1.425,18.591,18.591,0,0,0,7.561-1.425c.116-.055.219-.11.329-.164v2.465c0,.089,0,.253-.274.548a5.048,5.048,0,0,1-1.534.986,15.68,15.68,0,0,1-6.082,1.1,15.678,15.678,0,0,1-6.081-1.1,5.043,5.043,0,0,1-1.534-.986c-.274-.295-.274-.459-.274-.548Zm-11.4,5.1a15.319,15.319,0,0,1,6.082,1.151,5.138,5.138,0,0,1,1.534.986c.274.294.274.411.274.493s0,.2-.274.493a5.142,5.142,0,0,1-1.534.986,15.319,15.319,0,0,1-6.082,1.15,15.318,15.318,0,0,1-6.082-1.15A5.139,5.139,0,0,1,7.78,23.9c-.274-.295-.274-.411-.274-.493s0-.2.274-.493a5.136,5.136,0,0,1,1.534-.986A15.317,15.317,0,0,1,15.4,20.779Zm11.4,1.863c.137.069.24.157.384.219a18.574,18.574,0,0,0,7.506,1.425,18.576,18.576,0,0,0,7.506-1.425c.144-.062.247-.151.383-.219v2.52c0,.089,0,.253-.274.548a5.048,5.048,0,0,1-1.534.986,15.68,15.68,0,0,1-6.082,1.1A15.678,15.678,0,0,1,28.6,26.7a5.043,5.043,0,0,1-1.534-.986c-.274-.295-.274-.459-.274-.548ZM7.506,27.957c.11.055.212.11.329.164A18.591,18.591,0,0,0,15.4,29.545a18.591,18.591,0,0,0,7.561-1.425c.116-.055.219-.11.329-.164v2.465c0,.089,0,.253-.274.548a5.048,5.048,0,0,1-1.534.986,15.68,15.68,0,0,1-6.082,1.1,15.679,15.679,0,0,1-6.082-1.1A5.045,5.045,0,0,1,7.78,30.97c-.274-.295-.274-.459-.274-.548Zm19.286,1.7c.137.069.24.157.384.219A18.574,18.574,0,0,0,34.682,31.3a18.576,18.576,0,0,0,7.506-1.425c.144-.062.247-.151.383-.219v2.52c0,.089,0,.253-.274.548a5.048,5.048,0,0,1-1.534.986,15.68,15.68,0,0,1-6.082,1.1,15.678,15.678,0,0,1-6.081-1.1,5.043,5.043,0,0,1-1.534-.986c-.274-.295-.274-.459-.274-.548ZM7.506,34.915c.137.069.24.157.384.219A18.575,18.575,0,0,0,15.4,36.558,18.576,18.576,0,0,0,22.9,35.134c.144-.062.247-.151.383-.219v2.52c0,.089,0,.253-.274.548a5.048,5.048,0,0,1-1.534.986,15.68,15.68,0,0,1-6.082,1.1,15.679,15.679,0,0,1-6.082-1.1,5.045,5.045,0,0,1-1.534-.986c-.274-.295-.274-.459-.274-.548Z" transform="translate(-4 -5)" fill="#00a900"/>
+					</svg>
+						Oferta</h3>
+					<p class="pt-2 text-muted roboto-font">Szkolenie przybliżyć Ci koncept projektowania architektury mikrousługowej. Od podstaw poznasz zasady i dobre praktyki
 						związywane z wykorzystaniem Spring Cloud. Poprowadzę Cię krok po kroku przez podstawy i pomogę stworzyć oraz
 						uruchomić sieć mikrousług od podstaw.
 						<br>
 						<br>
 						W skład oferty wchodzi:</p>
 					<ul style="list-style: none; padding-left: 0px!important">
-						<li style="font-size: 1.25em;"><i  style="color: forestgreen" class="far fa-clock"></i> <strong class="font-weight-bold">30h</strong></li>
-						<p class="text-muted">Materiału szkoleniowego w postaci filmów video, do których masz dożywotni dostęp.</p>
-						<li style="font-size: 1.25em;"><i  style="color: forestgreen" class="fas fa-home"></i> <strong class="font-weight-bold">5 prac domowych</strong></li>
-						<p class="text-muted">Wszystkie prace domowe są przeze mnie sprawdzane i oceniane. Kod jest sprawdzany zarówno pod względem poprawności, jak i pod względem czystości.</p>
-						<li style="font-size: 1.25em;"><i  style="color: forestgreen" class="fas fa-edit"></i> <strong class="font-weight-bold">Egzamin z materiału</strong></li>
-						<p class="text-muted">Będziesz mógł sprawdzić przyswojenie materiału.</p>
-						<li style="font-size: 1.25em;"><i  style="color: forestgreen" class="fas fa-briefcase"></i> <strong class="font-weight-bold">Pytania rekrutacyjne</strong></li>
-						<p class="text-muted">Poznasz pytania, które występują podczas technicznych rozmów rekrutacyjnych dotyczących tego frameworka.</p>
+						<li class="font-weight-bold" style="font-size: 1.25em;"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="23.002" height="23.002" viewBox="0 0 30.002 30.002">
+							<path id="icons8_watch_2" d="M19,4A15,15,0,1,0,34,19,15.017,15.017,0,0,0,19,4ZM17.712,6.578h.039a1.253,1.253,0,0,0,2.5,0A12.431,12.431,0,0,1,31.423,17.751a1.253,1.253,0,0,0,0,2.5,13.394,13.394,0,0,1-.452,2.324,12.327,12.327,0,0,1-10.721,8.849,1.253,1.253,0,0,0-2.5,0A12.431,12.431,0,0,1,6.578,20.251a1.253,1.253,0,0,0,0-2.5A12.433,12.433,0,0,1,17.712,6.578Zm.039,3.672v9.258l.352.391,5,5,1.8-1.8-4.649-4.649v-8.2Z" transform="translate(-4 -4)" fill="#00a900"/>
+						</svg>
+							30h</li>
+						<p class="ml-3 mt-1 text-muted roboto-font" style="color:#656565">Materiału szkoleniowego w postaci filmów video, do których masz dożywotni dostęp.</p>
+
+
+						<li class="font-weight-bold" style="font-size: 1.25em;"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="26" height="23.779" viewBox="0 0 30 27.779">
+							<path id="icons8_home" d="M17.281,2.594l-.786.752L2.281,17.56l1.572,1.572,1.4-1.4V30.373h9.841V19.439h4.374V30.373h9.841V17.73l1.4,1.4,1.572-1.572L18.067,3.345Zm0,3.109,9.841,9.841V28.186H21.655V17.252H12.908V28.186H7.441V15.544Z" transform="translate(-2.281 -2.594)" fill="#00a900"/>
+						</svg>
+							5 prac domowych</li>
+						<p class="ml-3 mt-1 text-muted roboto-font" style="color:#656565">Wszystkie prace domowe są przeze mnie sprawdzane i oceniane. Kod&nbsp;jest&nbsp;sprawdzany&nbsp;zarówno pod względem poprawności, jak i pod względem&nbsp;czystości.</p>
+
+						<li class="font-weight-bold" style="font-size: 1.25em;"> <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="20.077" height="27" viewBox="0 0 23.077 30">
+							<path id="icons8_exam" d="M6,3V33H29.077V10.608l-.324-.361L21.829,3.325,21.469,3ZM8.308,5.308H19.846v6.923h6.923V30.692H8.308ZM22.154,6.966l2.957,2.957H22.154Zm-8.978,8.726-.252.793-2.236,6.923-.072.18v1.334h2.308v-1.01l.036-.144h2.236l.036.144v1.01h2.308V23.589l-.072-.18-2.236-6.923-.252-.793ZM21,16.846v2.308H18.692v2.308H21v2.308h2.308V21.462h2.308V19.154H23.308V16.846ZM14.077,20.38l.361,1.082h-.721Z" transform="translate(-6 -3)" fill="#00a900"/>
+						</svg>
+							Egzamin z materiału</li>
+						<p class="ml-3 mt-1 text-muted roboto-font">Będziesz mógł sprawdzić przyswojenie materiału.</p>
+
+						<li class="font-weight-bold" style="font-size: 1.25em;"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 30 30">
+							<path id="icons8_new_job" d="M16.416,3a4.093,4.093,0,0,0-3.967,3.1H3v20.64H16.416L15.384,25.7l1.032-1.032H5.064v-5.16H18.48V18.48h4.128l1.032-1.032H5.064V8.16h22.7v9.288L28.8,18.48h1.032V6.1H20.382A4.094,4.094,0,0,0,16.416,3Zm0,2.064A1.951,1.951,0,0,1,18.222,6.1H14.61A1.951,1.951,0,0,1,16.416,5.064Zm0,9.288a1.032,1.032,0,1,0,1.032,1.032A1.034,1.034,0,0,0,16.416,14.352ZM25.7,18.407l-2.137,2.137H20.544v3.023L18.407,25.7l2.137,2.137v3.023h3.023L25.7,33l2.137-2.137h3.023V27.84L33,25.7l-2.137-2.137V20.544H27.84Zm0,2.919,1.282,1.282H28.8v1.814L30.081,25.7,28.8,26.986V28.8H26.986L25.7,30.081,24.422,28.8H22.608V26.986L21.326,25.7l1.282-1.282V22.608h1.814Z" transform="translate(-3 -3)" fill="#00a900"/>
+						</svg>
+							Pytania rekrutacyjne</li>
+						<p class="ml-3 mt-1 text-muted roboto-font">Poznasz pytania, które występują podczas technicznych rozmów rekrutacyjnych dotyczących tego frameworka.</p>
+
 					</ul>
 				</div>
 				<div class="col-12 mt-lg-0 mt-3 col-lg-5">
 					<div class="col-12 stick-bottom">
 						<div class="row">
 							<div class="col-12 pt-lg-5">
-								<div class="float-right width-cost rounded text-center" style="background-color: #DCE3E6">
-									<p class="text-muted mt-3" style="margin-bottom: 0px !important; padding-left: 25%"><del>199.00 zł</del></p>
-									<p class="d-inline-block"><strong class="font-weight-bold">Koszt kursu:</strong></p> <h5 class="d-inline-block text-center font-weight-bold" style="color: forestgreen">149.00 zł</h5>
+									<div class="float-right width-cost text-center mb-4" style="background-color: #DCE3E6; border-radius: 1.1em;">
+										<p class="text-muted mt-3 roboto-font" style="margin-bottom: 0px !important; padding-left: 25%"><del>199.00 zł</del></p>
+										<p class="d-inline-block roboto-font"><strong class="font-weight-bold">Koszt kursu:</strong></p> <h5 class="d-inline-block text-center font-weight-bold roboto-font" style="color: forestgreen">149.00 zł</h5>
 
-								</div>
+									</div>
 							</div>
 						</div>
 						<div class="row pt-3 m-auto">
 							<div class="col-12">
-								<button class="btn btn-round shadow-lg text-center text-lg-right text-white float-right" style="background-color: forestgreen">Zapisz się</button>
+								<button class="btn btn-round shadow-lg text-center text-white float-right green-gradient-90" style="width: 35%">Zapisz się</button>
 							</div>
 						</div>
 					</div>
@@ -925,7 +1084,7 @@ MAIN
 <div class="container pr-5 pl-5 pt-5 pb-5">
 	<div class="row mt-5">
 		<div class="col-12">
-			<h4><strong>Partnerzy kursu</strong></h4>
+			<h5 class="font-weight-bold">Partnerzy kursu</h5>
 		</div>
 		<div class="col-12 pt-3">
 			<img class="img-fluid" src="./assets/img/partnerzy.png">

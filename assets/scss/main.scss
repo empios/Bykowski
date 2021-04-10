@@ -68,7 +68,7 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.mt-neg5 { 
+.mt-neg5 {
     margin-top: -5rem;
 }
 .ml-neg5 {
@@ -86,8 +86,8 @@ a {
 }
 
 @include media-breakpoint-only(xl) {
-    .h-xl-300 { 
-      height: 300px; 
+    .h-xl-300 {
+      height: 300px;
     }
     .h-max-380 {
       max-height:380px;
@@ -109,7 +109,7 @@ a {
 .btn-round {
     border-radius: $round-radius !important;
 }
-.btn { 
+.btn {
  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
     &:hover,
     &:focus {
@@ -134,7 +134,7 @@ a {
 
 .btn-link {
     &:hover,
-    &:focus { 
+    &:focus {
         box-shadow:none;
     }
 }
@@ -143,12 +143,12 @@ a {
 .btn-link.btn-#{$color} {
     @include button-variant-link($value);
     border-color: transparent;
-  } 
+  }
 }
 .btn-white {background-color:#fff;}
 // Inputs
 .input-round {
-    border-radius: $round-radius !important;    
+    border-radius: $round-radius !important;
 }
 .input-group.input-round {
     input:first-child {border-radius:30px 0 0 30px}
@@ -172,7 +172,7 @@ a {
     text-transform:none;
     box-shadow: $box-shadow-lg;
     &:before {
-        @include media-breakpoint-up(md) { 
+        @include media-breakpoint-up(md) {
             content: '';
             top: -8px;
             position: absolute;
@@ -238,7 +238,7 @@ a {
 
 // Jumbotron
 .jumbotron {
-    background-size:cover; 
+    background-size:cover;
     padding: 7rem 1rem;
 }
 @include media-breakpoint-up(lg) {
@@ -324,7 +324,7 @@ a {
         text-align: center;
         -webkti-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box; 
+        box-sizing: border-box;
        .day {
             font-size: 16px;
             line-height:1;
@@ -336,32 +336,32 @@ a {
         }
     a:hover {text-decoration:none; color: #008000;}
 }
-    
+
 .card-pricing .card ul li {
     margin-bottom:1.5rem;
 }
 
 // Icons
-.iconbox {       
-    border:1px solid;        
+.iconbox {
+    border:1px solid;
     text-align:center;
     display:inline-block;
 }
 .iconbox.iconsmall {
         width:40px;
-        height:40px;       
+        height:40px;
         line-height:40px;
         font-size:1rem;
     }
 .iconbox.iconmedium {
         width:60px;
-        height:60px;       
+        height:60px;
         line-height:60px;
         font-size:1.8rem;
     }
  .iconbox.iconlarge {
         width:80px;
-        height:80px;       
+        height:80px;
         line-height:80px;
         font-size:2.2rem;
     }
@@ -390,7 +390,7 @@ article {
     line-height:1.7;
     p, pre, figure, img {
         margin-bottom:2rem;
-    } 
+    }
     blockquote {
         border-left:7px solid $info;
         padding-left:30px;
@@ -427,7 +427,7 @@ footer.bg-black a {
         height: 100%;
         padding: 0 .5rem .5rem 1.5rem;
         border-right: 1px solid #e9ecef;
-        background-color: #fff;   
+        background-color: #fff;
        padding-bottom:50px;
     }
     .content-withfixedsidebar {
@@ -443,7 +443,7 @@ footer.bg-black a {
         padding-top:80px;
         padding-bottom:30px;
     }
-    h1 + h2 { padding-top: 0; } 
+    h1 + h2 { padding-top: 0; }
 }
 
 /* JUST SOME STYLES FOR PRE CODES */
@@ -979,33 +979,27 @@ blockquote {
   position: relative;
   margin: 0;
   padding: .5rem;
-  border: 1px solid #D6D6D6;
-  border-radius: 1rem;
+  border: 2px solid #DCE3E6;
+  border-radius: 1.5rem;
 }
 
 blockquote:before,
 blockquote:after {
   position: absolute;
-  color: #D6D6D6;
-  font-size: 8rem;
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 7rem;
 }
 
 blockquote:before {
-  content: '“';
-  left: -1.5rem;
-  top: -2rem;
-  font-family: 'Alef', sans-serif;
-  font-size: 5rem;
+  content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' width='23.17' height='18.059' viewBox='0 0 23.17 18.059'> <path id='icons8_quote_left' d='M9.416,5,3,13.621v6.863a2.594,2.594,0,0,0,2.574,2.574h5.149A2.594,2.594,0,0,0,13.3,20.484V15.335a2.594,2.594,0,0,0-2.574-2.574H6.849L12.626,5ZM22.263,5l-6.391,8.586v6.861a2.594,2.594,0,0,0,2.574,2.574H23.6a2.594,2.594,0,0,0,2.574-2.574V15.3A2.594,2.594,0,0,0,23.6,12.723H19.721l1.037-1.394L25.471,5ZM18.446,15.3H23.6v5.149H18.446V15.3Zm-12.872.038h5.149v5.149H5.574Z' transform='translate(-3 -5)' fill='#dce3e6'/> </svg> ");
+  left: -3rem;
+  top: 3.4rem;
 }
 
 blockquote:after {
-  content: '”';
-  right: -1.5rem;
-  bottom: -1.5rem;
-  font-family: 'Alef', sans-serif;
-  font-size: 5rem;
+  content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='23.17' height='18.059' viewBox='0 0 23.17 18.059'><path id='icons8_quote_left' d='M19.754,23.059l6.416-8.621V7.574A2.594,2.594,0,0,0,23.6,5H18.446a2.594,2.594,0,0,0-2.574,2.574v5.149A2.594,2.594,0,0,0,18.446,15.3h3.874l-5.777,7.761Zm-12.847,0L13.3,14.473V7.612a2.594,2.594,0,0,0-2.574-2.574H5.574A2.594,2.594,0,0,0,3,7.612v5.149a2.594,2.594,0,0,0,2.574,2.574H9.449L3.7,23.059Zm3.816-10.3H5.574V7.612h5.149v5.149ZM23.6,12.723H18.446V7.574H23.6Z' transform='translate(-3 -5)' fill='#dce3e6'/></svg>");
+  right: -3rem;
+  bottom: -2rem;
 }
 
 .trapezoidbutton {
@@ -1390,9 +1384,9 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 1290px) {
   .flowers333{
     position: absolute;
-    left: -6em;
+    left: -12em;
     bottom: -8em;
-    width: 20%;
+    width: 30%;
 
   }
 }
@@ -1442,9 +1436,9 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 1290px) {
   .flowers344{
     position: absolute;
-    right: -5em;
-    top: -5em;
-    width: 15%;
+    right: -11em;
+    top: -12em;
+    width: 30%;
 
   }
 }
@@ -1470,37 +1464,37 @@ div > #checkbox1-checkbox{
 @media only screen and (min-width: 400px) {
   .buttonflower{
     position:absolute;
-    z-index: -1;
-    bottom: -3em;
-    width: 40%;
-    right: -2em;
+    z-index:1;
+    bottom: -2.5em;
+    width: 30%;
+    left: 23em;
   }
 }
 @media only screen and (min-width: 800px) {
   .buttonflower{
     position:absolute;
-    z-index: -1;
-    bottom: -5em;
-    width: 40%;
-    right: -8em;
+    z-index: 1;
+    top: -5em;
+    width: 25%;
+    left: 30em;
   }
 }
 @media only screen and (min-width: 1000px) {
   .buttonflower{
     position:absolute;
-    z-index: -1;
-    bottom: -3em;
-    right: -6em;
-    width: 100%;
+    z-index: 1;
+    top:-7.3em;
+    left: 6em;
+    width: 60%;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   .buttonflower {
     position: absolute;
-    z-index: -1;
-    bottom: -4em;
-    right: 3em;
+    z-index: 1;
+    top: -9em;
+    left: 7em;
     width: 60%; } }
 
 .marginCenter{
@@ -1559,8 +1553,8 @@ div > #checkbox1-checkbox{
   opacity: 1 !important;
 }
 
-.icon-on-hover:hover i{
-  color: #00A900;
+.icon-on-hover:hover path{
+  fill: #00A900;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -1577,7 +1571,7 @@ div > #checkbox1-checkbox{
 }
 
 .width-cost{
-  width: 60%;
+  width: 70%;
 }
 
 @font-face {
@@ -1641,7 +1635,7 @@ html {
 }
 
 .anim-img{
-  transition: transform .5s ease;
+  transition: transform .4s ease;
 }
 
 .anim-img:hover{
@@ -1657,4 +1651,59 @@ html {
 
 .roboto-font {
   font-family: 'Roboto', sans-serif!important;
+}
+
+.green-gradient-90{
+  background: rgb(0,128,0);
+  background: linear-gradient(90deg, rgba(0,128,0,1) 0%, rgba(0,169,0,1) 100%);
+}
+
+#sign:hover{
+  background: rgb(0,128,0);
+  background: linear-gradient(270deg, rgba(0,128,0,1) 0%, rgba(0,169,0,1) 100%);
+}
+
+.logo-min{
+  @media only screen and (max-width: 700px) {
+    width: 50%
+  }
+}
+
+.svg-hover-with-label:hover{
+  path{
+    fill: #00A900;
+  }
+  color: #00A900;
+}
+.svg-hover-with-label{
+  fill:#818e94;
+}
+
+.fill-gradient-svg:hover{
+  fill: url(#linear-gradient2);
+  .fill-text{
+    fill:white;
+  }
+  #border{
+    display: none;
+  }
+
+}
+
+.fill-text{
+  fill: black;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.btn-width-custom{
+  width: 100%;
+  @media only screen and (min-width: 1000px) {
+    width: 672px;
+  }
+}
+
+.ul-without-padding{
+  padding-left: 1.5em!important;
 }
